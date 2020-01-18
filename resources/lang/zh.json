@@ -1,5 +1,7 @@
 {
-
+    "Login" : "登入",
+    "Register" : "註冊",
+    
     "1" : "App.vue",
     "ItsMe" : "關於我",
     "Works" : "作品集",

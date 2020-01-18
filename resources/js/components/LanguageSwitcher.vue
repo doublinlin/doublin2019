@@ -1,5 +1,5 @@
 <template>
-  <div class="relative">
+  <div class="relative language">
     <button
       href="#"
       class="flex items-center"
@@ -138,6 +138,10 @@ export default {
     }
     .relative {
         position: relative;
+    }
+    .language{
+        margin: 10px 0 0 10px;
+
     }
     .dropdown-fade-enter-active, .dropdown-fade-leave-active {
         transition: all .1s ease-in-out;

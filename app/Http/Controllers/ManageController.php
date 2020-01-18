@@ -23,6 +23,6 @@ class ManageController extends Controller
      */
     public function index()
     {
-        return view('manage');
+        return view('Manage');
     }
 }
