@@ -1897,20 +1897,119 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
-    return {
-      slide: 0,
-      sliding: null
-    };
-  },
-  methods: {
-    onSlideStart: function onSlideStart(slide) {
-      this.sliding = true;
-    },
-    onSlideEnd: function onSlideEnd(slide) {
-      this.sliding = false;
-    }
+    return {};
   }
 });
 
@@ -72481,10 +72580,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ItsMe.vue?vue&type=template&id=00f96105&scoped=true&":
-/*!********************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/ItsMe.vue?vue&type=template&id=00f96105&scoped=true& ***!
-  \********************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ItsMe.vue?vue&type=template&id=00f96105&":
+/*!********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/ItsMe.vue?vue&type=template&id=00f96105& ***!
+  \********************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -72496,7 +72595,449 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "page-body" })
+  return _c("div", [
+    _c("div", { staticClass: "page-body" }, [
+      _c(
+        "div",
+        { staticClass: "page-content" },
+        [
+          _c(
+            "b-container",
+            { staticClass: "bv-example-row" },
+            [
+              _c(
+                "b-row",
+                [
+                  _c(
+                    "b-col",
+                    { attrs: { md: "6" } },
+                    [
+                      _c("b-img", {
+                        attrs: {
+                          src: "http://doublinlin.com/doublin/img/myPhoto.jpg",
+                          fluid: "",
+                          alt: "Responsive image"
+                        }
+                      })
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-col",
+                    { attrs: { md: "6" } },
+                    [
+                      _c(
+                        "b-row",
+                        { staticClass: "config" },
+                        [
+                          _c(
+                            "b-col",
+                            { staticClass: "text-title", attrs: { md: "5" } },
+                            [_vm._v(_vm._s(_vm.__("Name_Title")))]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { staticClass: "text-content", attrs: { md: "7" } },
+                            [_vm._v(_vm._s(_vm.__("Name_Content")))]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { staticClass: "text-title", attrs: { md: "5" } },
+                            [_vm._v(_vm._s(_vm.__("Birthday_Title")))]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { staticClass: "text-content", attrs: { md: "7" } },
+                            [_vm._v(_vm._s(_vm.__("Birthday_Content")))]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { staticClass: "text-title", attrs: { md: "5" } },
+                            [_vm._v(_vm._s(_vm.__("Hometown_Title")))]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { staticClass: "text-content", attrs: { md: "7" } },
+                            [_vm._v(_vm._s(_vm.__("Hometown_Content")))]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { staticClass: "text-title", attrs: { md: "5" } },
+                            [_vm._v(_vm._s(_vm.__("Education_Title")))]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { staticClass: "text-content", attrs: { md: "7" } },
+                            [
+                              _c("p", [
+                                _vm._v(_vm._s(_vm.__("Education_Content_1"))),
+                                _c("br"),
+                                _vm._v(
+                                  " \n                  " +
+                                    _vm._s(_vm.__("Education_Content_2")) +
+                                    "\n                  "
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { staticClass: "text-title", attrs: { md: "5" } },
+                            [_vm._v(_vm._s(_vm.__("Software_Title")))]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { staticClass: "text-content", attrs: { md: "7" } },
+                            [
+                              _c("p", [
+                                _vm._v(_vm._s(_vm.__("Software_Content_1"))),
+                                _c("br"),
+                                _vm._v(
+                                  "\n                  " +
+                                    _vm._s(_vm.__("Software_Content_2"))
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { staticClass: "text-title", attrs: { md: "5" } },
+                            [_vm._v(_vm._s(_vm.__("Skills_Title")))]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { staticClass: "text-content", attrs: { md: "7" } },
+                            [
+                              _c("p", [
+                                _vm._v(_vm._s(_vm.__("Skills_Content_1"))),
+                                _c("br"),
+                                _vm._v(
+                                  "\n                  " +
+                                    _vm._s(_vm.__("Skills_Content_2"))
+                                ),
+                                _c("br"),
+                                _vm._v(
+                                  "\n                  " +
+                                    _vm._s(_vm.__("Skills_Content_3"))
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { staticClass: "text-title", attrs: { md: "5" } },
+                            [_vm._v(_vm._s(_vm.__("Language_Title")))]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { staticClass: "text-content", attrs: { md: "7" } },
+                            [
+                              _c("p", [
+                                _vm._v(_vm._s(_vm.__("Language_Content_1"))),
+                                _c("br"),
+                                _vm._v(
+                                  "\n                  " +
+                                    _vm._s(_vm.__("Language_Content_2")) +
+                                    "  " +
+                                    _vm._s(_vm.__("Language_Content_3"))
+                                )
+                              ])
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { staticClass: "text-title", attrs: { md: "5" } },
+                            [_vm._v(_vm._s(_vm.__("Experience_Title")))]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-col",
+                            { staticClass: "text-content", attrs: { md: "7" } },
+                            [
+                              _c(
+                                "b-button",
+                                {
+                                  directives: [
+                                    {
+                                      name: "b-modal",
+                                      rawName: "v-b-modal.modal-scrollable",
+                                      modifiers: { "modal-scrollable": true }
+                                    }
+                                  ],
+                                  attrs: { variant: "outline-dark", size: "sm" }
+                                },
+                                [_vm._v(_vm._s(_vm.__("Experience_Content")))]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-modal",
+                                {
+                                  attrs: {
+                                    id: "modal-scrollable",
+                                    scrollable: "",
+                                    title: _vm.__("Work_Experience_Title"),
+                                    "hide-footer": ""
+                                  }
+                                },
+                                [
+                                  _c(
+                                    "p",
+                                    { staticClass: "my-4" },
+                                    [
+                                      _c(
+                                        "b-container",
+                                        { staticClass: "bv-example-row" },
+                                        [
+                                          _c(
+                                            "b-row",
+                                            { staticClass: "config-2" },
+                                            [
+                                              _c(
+                                                "b-col",
+                                                {
+                                                  staticClass: "text-title",
+                                                  attrs: { md: "12" }
+                                                },
+                                                [
+                                                  _c("i", {
+                                                    staticClass:
+                                                      "fas fa-briefcase"
+                                                  }),
+                                                  _vm._v(
+                                                    "\n                           " +
+                                                      _vm._s(
+                                                        _vm.__(
+                                                          "Work_Experience_Content_1"
+                                                        )
+                                                      )
+                                                  ),
+                                                  _c("br"),
+                                                  _vm._v(
+                                                    "\n                            2014 - 2016\n                          "
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "b-col",
+                                                {
+                                                  staticClass: "text-content",
+                                                  attrs: { md: "12" }
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n                            " +
+                                                      _vm._s(
+                                                        _vm.__(
+                                                          "Work_Experience_Content_2"
+                                                        )
+                                                      )
+                                                  ),
+                                                  _c("br")
+                                                ]
+                                              )
+                                            ],
+                                            1
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "b-row",
+                                            { staticClass: "config-2" },
+                                            [
+                                              _c(
+                                                "b-col",
+                                                {
+                                                  staticClass: "text-title",
+                                                  attrs: { md: "12" }
+                                                },
+                                                [
+                                                  _c("i", {
+                                                    staticClass:
+                                                      "fas fa-briefcase"
+                                                  }),
+                                                  _vm._v(
+                                                    "\n                           " +
+                                                      _vm._s(
+                                                        _vm.__(
+                                                          "Work_Experience_Content_3"
+                                                        )
+                                                      )
+                                                  ),
+                                                  _c("br"),
+                                                  _vm._v(
+                                                    "\n                            2016 - 2017\n                          "
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "b-col",
+                                                {
+                                                  staticClass: "text-content",
+                                                  attrs: { md: "12" }
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n                            " +
+                                                      _vm._s(
+                                                        _vm.__(
+                                                          "Work_Experience_Content_4"
+                                                        )
+                                                      ) +
+                                                      "\n                          "
+                                                  )
+                                                ]
+                                              )
+                                            ],
+                                            1
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "b-row",
+                                            { staticClass: "config-2" },
+                                            [
+                                              _c(
+                                                "b-col",
+                                                {
+                                                  staticClass: "text-title",
+                                                  attrs: { md: "12" }
+                                                },
+                                                [
+                                                  _c("i", {
+                                                    staticClass:
+                                                      "fas fa-briefcase"
+                                                  }),
+                                                  _vm._v(
+                                                    "\n                           " +
+                                                      _vm._s(
+                                                        _vm.__(
+                                                          "Work_Experience_Content_5"
+                                                        )
+                                                      )
+                                                  ),
+                                                  _c("br"),
+                                                  _vm._v(
+                                                    "\n                            2018 - 2019\n                          "
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "b-col",
+                                                {
+                                                  staticClass: "text-content",
+                                                  attrs: { md: "12" }
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n                            " +
+                                                      _vm._s(
+                                                        _vm.__(
+                                                          "Work_Experience_Content_6"
+                                                        )
+                                                      ) +
+                                                      "\n                          "
+                                                  )
+                                                ]
+                                              )
+                                            ],
+                                            1
+                                          ),
+                                          _vm._v(" "),
+                                          _c(
+                                            "b-row",
+                                            { staticClass: "config-2" },
+                                            [
+                                              _c(
+                                                "b-col",
+                                                {
+                                                  staticClass: "text-title",
+                                                  attrs: { md: "12" }
+                                                },
+                                                [
+                                                  _c("i", {
+                                                    staticClass:
+                                                      "fas fa-briefcase"
+                                                  }),
+                                                  _vm._v(
+                                                    "\n                           " +
+                                                      _vm._s(
+                                                        _vm.__(
+                                                          "Work_Experience_Content_7"
+                                                        )
+                                                      )
+                                                  ),
+                                                  _c("br"),
+                                                  _vm._v(
+                                                    "\n                            2019 - \n                          "
+                                                  )
+                                                ]
+                                              ),
+                                              _vm._v(" "),
+                                              _c(
+                                                "b-col",
+                                                {
+                                                  staticClass: "text-content",
+                                                  attrs: { md: "12" }
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n                            " +
+                                                      _vm._s(
+                                                        _vm.__(
+                                                          "Work_Experience_Content_8"
+                                                        )
+                                                      ) +
+                                                      "\n                          "
+                                                  )
+                                                ]
+                                              )
+                                            ],
+                                            1
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ],
+                                    1
+                                  )
+                                ]
+                              )
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ])
+  ])
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -85108,6 +85649,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
  // Install BootstrapVue
 
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BootstrapVue"]); // Optionally install the BootstrapVue icon components plugin
@@ -85117,6 +85659,7 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(bootstrap_vue__WEBPACK_IMPORTED_M
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('b-card-img-lazy', bootstrap_vue__WEBPACK_IMPORTED_MODULE_1__["BCard"]);
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
@@ -85265,7 +85808,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _ItsMe_vue_vue_type_template_id_00f96105_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ItsMe.vue?vue&type=template&id=00f96105&scoped=true& */ "./resources/js/components/ItsMe.vue?vue&type=template&id=00f96105&scoped=true&");
+/* harmony import */ var _ItsMe_vue_vue_type_template_id_00f96105___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ItsMe.vue?vue&type=template&id=00f96105& */ "./resources/js/components/ItsMe.vue?vue&type=template&id=00f96105&");
 /* harmony import */ var _ItsMe_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ItsMe.vue?vue&type=script&lang=js& */ "./resources/js/components/ItsMe.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
@@ -85277,11 +85820,11 @@ __webpack_require__.r(__webpack_exports__);
 
 var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
   _ItsMe_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _ItsMe_vue_vue_type_template_id_00f96105_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _ItsMe_vue_vue_type_template_id_00f96105_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _ItsMe_vue_vue_type_template_id_00f96105___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ItsMe_vue_vue_type_template_id_00f96105___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
-  "00f96105",
+  null,
   null
   
 )
@@ -85307,19 +85850,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/components/ItsMe.vue?vue&type=template&id=00f96105&scoped=true&":
-/*!**************************************************************************************!*\
-  !*** ./resources/js/components/ItsMe.vue?vue&type=template&id=00f96105&scoped=true& ***!
-  \**************************************************************************************/
+/***/ "./resources/js/components/ItsMe.vue?vue&type=template&id=00f96105&":
+/*!**************************************************************************!*\
+  !*** ./resources/js/components/ItsMe.vue?vue&type=template&id=00f96105& ***!
+  \**************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ItsMe_vue_vue_type_template_id_00f96105_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./ItsMe.vue?vue&type=template&id=00f96105&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ItsMe.vue?vue&type=template&id=00f96105&scoped=true&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ItsMe_vue_vue_type_template_id_00f96105_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ItsMe_vue_vue_type_template_id_00f96105___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./ItsMe.vue?vue&type=template&id=00f96105& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ItsMe.vue?vue&type=template&id=00f96105&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ItsMe_vue_vue_type_template_id_00f96105___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ItsMe_vue_vue_type_template_id_00f96105_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ItsMe_vue_vue_type_template_id_00f96105___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
