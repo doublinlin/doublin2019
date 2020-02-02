@@ -10,6 +10,7 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 import { BCard } from 'bootstrap-vue'
 
 
+
 // Install BootstrapVue
 Vue.use(BootstrapVue)
 // Optionally install the BootstrapVue icon components plugin
@@ -33,7 +34,7 @@ Vue.component('b-card-img-lazy', BCard)
 
 Vue.component('language-switcher', require('./components/LanguageSwitcher.vue').default);
 Vue.component('home', require('./components/Home.vue').default);
-Vue.component('itsme', require('./components/ItsMe.vue').default);
+
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
