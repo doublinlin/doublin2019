@@ -4,17 +4,18 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 import Vue from 'vue'
-import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import { BCard } from 'bootstrap-vue'
-
-
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+import { BootstrapVueIcons } from 'bootstrap-vue'
+import 'bootstrap-vue/dist/bootstrap-vue-icons.min.css'
 
 // Install BootstrapVue
 Vue.use(BootstrapVue)
 // Optionally install the BootstrapVue icon components plugin
 Vue.use(IconsPlugin)
+Vue.use(BootstrapVueIcons)
 
 require('./bootstrap');
 

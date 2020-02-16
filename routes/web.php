@@ -12,6 +12,3 @@ Route::redirect('/', '/zh');
 // url大小寫很重要
 Route::get('/{language}', 'HomeController@index')->name('Home');
 Route::get('/ItsMe/{language}', 'ItsMeController@index')->name('ItsMe');
-
-Auth::routes();
-Route::get('/Manage/{language}', 'ManageController@index')->name('Manage');

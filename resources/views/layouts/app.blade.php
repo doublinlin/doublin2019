@@ -21,61 +21,51 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
+                <!-- Left Side Of Navbar -->
+                <ul class="navbar-nav mr-auto">
+                    <div class="text-center mr-3">
+                        <b-button id="popover-target-1" variant="outline-dark">
+                            {{ __('Contact') }}
+                        </b-button>
+                        <b-popover target="popover-target-1" triggers="hover" placement="top">
+                            <b-icon-phone variant="danger"></b-icon-phone>&nbsp;0933129409<br>
+                            <b-icon-envelope variant="danger"></b-icon-envelope>&nbsp;doublinlin@gmail.com
+                        </b-popover>
+                    </div>
+                </ul>
                 <a class="navbar-brand" href="{{ url('/', app()->getLocale()) }}">
-                    {{ __('Doublin') }}
+                        {{ __('Doublin') }}
                 </a>
+                
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav mr-auto">
-
-                    </ul>
-
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('ItsMe', app()->getLocale()) }}">{{ __('ItsMe') }}</a>
-                            </li>
-                        <!-- Authentication Links -->
-                        @guest
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login', app()->getLocale()) }}">{{ __('Login') }}</a>
-                            </li>
-                            @if (Route::has('register'))
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register', app()->getLocale()) }}">{{ __('Register') }}</a>
-                                </li>
-                            @endif
-                            <li class="nav-item">
-                                <language-switcher
-                                    locale="{{ app()->getLocale() }}"
-                                    link-en="{{ route(Route::currentRouteName(), 'en') }}"
-                                    link-zh="{{ route(Route::currentRouteName(), 'zh') }}"
-                                ></language-switcher>
-                            </li>
-                        @else
-                            <li class="nav-item dropdown">
-                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                    {{ Auth::user()->name }} <span class="caret"></span>
-                                </a>
-
-                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="{{ route('logout', app()->getLocale()) }}"
-                                       onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
-                                        {{ __('Logout') }}
-                                    </a>
-
-                                    <form id="logout-form" action="{{ route('logout', app()->getLocale()) }}" method="POST" style="display: none;">
-                                        @csrf
-                                    </form>
-                                </div>
-                            </li>
-
-                        @endguest
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('ItsMe', app()->getLocale()) }}">{{ __('ItsMe') }}</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            {{ __('Works')}}
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <router-link :to="'Gallery'" class="dropdown-item">{{ __('Gallery')}}</router-link>
+                            <router-link :to="'Design'" class="dropdown-item">{{ __('Design')}}</router-link>
+                            <router-link :to="'Web_UI_Design'" class="dropdown-item">{{ __('UI_Web_Design')}}</router-link>
+                            <router-link :to="'Photo'" class="dropdown-item">{{ __('Photo')}}</router-link>
+                            <router-link :to="'Video'" class="dropdown-item">{{ __('Video')}}</router-link>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <language-switcher
+                                locale="{{ app()->getLocale() }}"
+                                link-en="{{ route(Route::currentRouteName(), 'en') }}"
+                                link-zh="{{ route(Route::currentRouteName(), 'zh') }}"
+                            ></language-switcher>
+                        </li>
                     </ul>
                 </div>
             </div>
