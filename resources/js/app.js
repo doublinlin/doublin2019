@@ -7,9 +7,11 @@ import Vue from 'vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import { BCard } from 'bootstrap-vue'
+import { BEmbed } from 'bootstrap-vue'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import { BootstrapVueIcons } from 'bootstrap-vue'
 import 'bootstrap-vue/dist/bootstrap-vue-icons.min.css'
+
 
 // Install BootstrapVue
 Vue.use(BootstrapVue)
@@ -17,11 +19,13 @@ Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
 Vue.use(BootstrapVueIcons)
 
+
 require('./bootstrap');
 
 window.Vue = require('vue');
 
 Vue.component('b-card-img-lazy', BCard)
+Vue.component('b-embed', BEmbed)
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue

@@ -3,6 +3,7 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
+
         <div class="page-body">
             <div class="page-content">
                 <b-container class="bv-example-row">
@@ -57,8 +58,8 @@
                         <b-modal 
                         id="modal-scrollable"
                         scrollable
-                        :title="('Work_Experience_Title')"
                         hide-footer>
+                            <b-modal-title>{{ __('Work_Experience_Title') }}</b-modal-title>
                             <p class="my-4">
                             <b-container class="bv-example-row">
                                 <b-row class="config-2">
@@ -114,6 +115,7 @@
                 </b-container>
             </div>
         </div>
+        
     </div>
 </div>
 @endsection

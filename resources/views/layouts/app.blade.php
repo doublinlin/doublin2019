@@ -52,11 +52,11 @@
                             {{ __('Works')}}
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <router-link :to="'Gallery'" class="dropdown-item">{{ __('Gallery')}}</router-link>
-                            <router-link :to="'Design'" class="dropdown-item">{{ __('Design')}}</router-link>
-                            <router-link :to="'Web_UI_Design'" class="dropdown-item">{{ __('UI_Web_Design')}}</router-link>
-                            <router-link :to="'Photo'" class="dropdown-item">{{ __('Photo')}}</router-link>
-                            <router-link :to="'Video'" class="dropdown-item">{{ __('Video')}}</router-link>
+                                <a class="dropdown-item" href="{{ route('works.Gallery', app()->getLocale()) }}">{{ __('Gallery')}}</a>
+                                <a class="dropdown-item" href="{{ route('works.Design', app()->getLocale()) }}">{{ __('Design')}}</a>
+                                <a class="dropdown-item" href="{{ route('works.UIWebDesign', app()->getLocale()) }}">{{ __('UI_Web_Design')}}</a>
+                                <a class="dropdown-item" href="{{ route('works.Photo', app()->getLocale()) }}">{{ __('Photo')}}</a>
+                                <a class="dropdown-item" href="{{ route('works.Video', app()->getLocale()) }}">{{ __('Video')}}</a>
                             </div>
                         </li>
                         <li class="nav-item">
