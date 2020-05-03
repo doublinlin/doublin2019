@@ -15,9 +15,25 @@
                     >
                         <b-card-title>{{ __('Gallery_Title_1')}}</b-card-title>
                         <b-card-text>{{ __('Gallery_Content_1')}}</b-card-text>
-
-                        <b-button href="#" variant="outline-dark">more</b-button>
+                        
+                        <!-- v-b-modal.都小寫 -->
+                        <b-button 
+                        v-b-modal.gallery_1 
+                        variant="outline-dark"
+                        size="sm"
+                        >more
+                        </b-button>
                     </b-card-img-lazy>
+                        <b-modal 
+                        id="gallery_1"
+                        title="{{ __('Gallery_Title_1')}}"
+                        scrollable
+                        hide-footer>
+                        
+                            <b-container class="bv-example-row">
+                                111
+                            </b-container>
+                        </b-modal>
 
                     <b-card-img-lazy
                         img-src="http://doublinlin.com/doublin/img/galleryImg/Doublin_bag_2_850.jpg"
@@ -60,6 +76,8 @@
                     </b-card-img-lazy>
 
                 </b-card-group>
+
+                
             </div>
         </div>
 

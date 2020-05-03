@@ -91,7 +91,7 @@
                         img-top
                         class="mt-3"
                     >
-                        <b-card-title>{{ __('Design_Title_7)}}</b-card-title>
+                        <b-card-title>{{ __('Design_Title_7')}}</b-card-title>
                         <b-card-text>{{ __('Design_Content_7')}}</b-card-text>
 
                         <b-button href="#" variant="outline-dark">more</b-button>

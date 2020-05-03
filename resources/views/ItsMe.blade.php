@@ -51,15 +51,15 @@
                         <b-col md="5" class="text-title">{{ __('Experience_Title') }}</b-col>
                         <b-col md="7" class="text-content">
                         <b-button 
-                        v-b-modal.modal-scrollable
+                        v-b-modal.experience
                         variant="outline-dark"
                         size="sm"
                         >{{ __('Experience_Content') }}</b-button>
                         <b-modal 
-                        id="modal-scrollable"
+                        id="experience"
+                        title="{{ __('Work_Experience_Title') }}"
                         scrollable
                         hide-footer>
-                            <b-modal-title>{{ __('Work_Experience_Title') }}</b-modal-title>
                             <p class="my-4">
                             <b-container class="bv-example-row">
                                 <b-row class="config-2">
@@ -98,7 +98,7 @@
                                 <b-col md="12" class="text-title">
                                 <i class="fas fa-briefcase"></i>
                                 &nbsp;{{ __('Work_Experience_Content_7') }}<br>
-                                &emsp;&ensp;2019 - 
+                                &emsp;&ensp;2019 - now
                                 </b-col>
                                 <b-col md="12" class="text-content">
                                 &emsp;&ensp;{{ __('Work_Experience_Content_8') }}
