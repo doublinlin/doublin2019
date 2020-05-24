@@ -11,7 +11,8 @@ import { BEmbed } from 'bootstrap-vue'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import { BootstrapVueIcons } from 'bootstrap-vue'
 import 'bootstrap-vue/dist/bootstrap-vue-icons.min.css'
-
+import VueLoading from 'vue-loading-overlay'
+import 'vue-loading-overlay/dist/vue-loading.css'
 
 // Install BootstrapVue
 Vue.use(BootstrapVue)
@@ -19,13 +20,13 @@ Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
 Vue.use(BootstrapVueIcons)
 
-
 require('./bootstrap');
 
 window.Vue = require('vue');
 
 Vue.component('b-card-img-lazy', BCard)
 Vue.component('b-embed', BEmbed)
+
 
 /**
  * The following block of code may be used to automatically register your
@@ -41,13 +42,25 @@ Vue.component('b-embed', BEmbed)
 Vue.component('language-switcher', require('./components/LanguageSwitcher.vue').default);
 Vue.component('home', require('./components/Home.vue').default);
 
-
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
+
 const app = new Vue({
     el: '#app',
+    components: {
+        loading: VueLoading
+    },
+    data: {
+      isLoading: true,
+      
+    },
+    mounted(){
+         setTimeout(() => {
+            this.isLoading = false
+        },500)
+    }
 });

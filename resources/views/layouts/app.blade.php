@@ -19,6 +19,15 @@
 </head>
 <body>
     <div id="app">
+            <!-- loading -->
+            <div class="vld-parent">
+                <loading 
+                :active.sync="isLoading" 
+                :can-cancel="true" 
+                :on-cancel="onCancel"
+                :is-full-page="true">
+                </loading>
+            </div>
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <!-- Left Side Of Navbar -->
@@ -84,7 +93,6 @@
     </footer>
 
     <!-- script -->
-    
     <script src="{{ asset('js/app.js') }}" defer></script>
 
 </body>

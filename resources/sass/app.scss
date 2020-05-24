@@ -45,6 +45,18 @@
     color: gray;
     padding: 0.4em 0 0.2em 0;
 }
+.text-title-2{
+    font-weight: 300;
+    font-size: 14pt;
+    color: black;
+    padding: 0.4em 0 0.2em 0;
+}
+.text-content-2{
+    font-weight: 300;
+    font-size: 12pt;
+    color: gray;
+    padding: 0.4em 0 0.2em 0;
+}
 .config{
     padding: 0 0 0 15pt;
 }
@@ -65,4 +77,11 @@
     font-size: 0.8rem;
     color: #000000;
 }
+
+/* 響應式圖片 */
+img-responsive {
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+    }
 
