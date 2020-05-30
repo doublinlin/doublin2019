@@ -16,8 +16,37 @@
                         <b-card-title>{{ __('Web_UI_Title_1')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_1')}}</b-card-text>
 
-                        <b-button href="#" variant="outline-dark">more</b-button>
+                        <!-- v-b-modal.都小寫 -->
+                        <b-button 
+                        v-b-modal.uiwebdesign_1 
+                        variant="outline-dark"
+                        size="sm"
+                        >more
+                        </b-button>
                     </b-card-img-lazy>
+                        <b-modal 
+                        id="uiwebdesign_1"
+                        title="{{ __('Web_UI_Title_1')}}"
+                        size="lg"
+                        scrollable
+                        hide-footer
+                        >
+                        
+                            <b-container>
+                                <div class="mb-5">
+                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <p class="text-content-2">
+                                    Daily UI<br>
+                                    #001<br>
+                                    Register
+                                    </p>
+                                </div>
+                                <div class="mb-5">
+                                    <b-img src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day1.jpg" fluid alt="Fluid image"></b-img>
+                                </div>
+                            </b-container>
+
+                        </b-modal>
 
                     <b-card-img-lazy
                         img-src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day2.jpg" 
@@ -29,8 +58,37 @@
                         <b-card-title>{{ __('Web_UI_Title_2')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_2')}}</b-card-text>
 
-                        <b-button href="#" variant="outline-dark">more</b-button>
+                        <!-- v-b-modal.都小寫 -->
+                        <b-button 
+                        v-b-modal.uiwebdesign_2 
+                        variant="outline-dark"
+                        size="sm"
+                        >more
+                        </b-button>
                     </b-card-img-lazy>
+                        <b-modal 
+                        id="uiwebdesign_2"
+                        title="{{ __('Web_UI_Title_1')}}"
+                        size="lg"
+                        scrollable
+                        hide-footer
+                        >
+                        
+                            <b-container>
+                                <div class="mb-5">
+                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <p class="text-content-2">
+                                    Daily UI<br>
+                                    #002<br>
+                                    Checkout
+                                    </p>
+                                </div>
+                                <div class="mb-5">
+                                    <b-img src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day2.jpg" fluid alt="Fluid image"></b-img>
+                                </div>
+                            </b-container>
+
+                        </b-modal>
 
                     <b-card-img-lazy
                         img-src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day3.jpg"
@@ -41,8 +99,37 @@
                         <b-card-title>{{ __('Web_UI_Title_3')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_3')}}</b-card-text>
 
-                        <b-button href="#" variant="outline-dark">more</b-button>
+                        <!-- v-b-modal.都小寫 -->
+                        <b-button 
+                        v-b-modal.uiwebdesign_3
+                        variant="outline-dark"
+                        size="sm"
+                        >more
+                        </b-button>
                     </b-card-img-lazy>
+                        <b-modal 
+                        id="uiwebdesign_3"
+                        title="{{ __('Web_UI_Title_1')}}"
+                        size="lg"
+                        scrollable
+                        hide-footer
+                        >
+                        
+                            <b-container>
+                                <div class="mb-5">
+                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <p class="text-content-2">
+                                    Daily UI<br>
+                                    #003<br>
+                                    Landing Page
+                                    </p>
+                                </div>
+                                <div class="mb-5">
+                                    <b-img src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day3.jpg" fluid alt="Fluid image"></b-img>
+                                </div>
+                            </b-container>
+
+                        </b-modal>
                 </b-card-group>
 
                 <b-card-group deck>
@@ -55,8 +142,37 @@
                         <b-card-title>{{ __('Web_UI_Title_4')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_4')}}</b-card-text>
 
-                        <b-button href="#" variant="outline-dark">more</b-button>
+                        <!-- v-b-modal.都小寫 -->
+                        <b-button 
+                        v-b-modal.uiwebdesign_4
+                        variant="outline-dark"
+                        size="sm"
+                        >more
+                        </b-button>
                     </b-card-img-lazy>
+                        <b-modal 
+                        id="uiwebdesign_4"
+                        title="{{ __('Web_UI_Title_1')}}"
+                        size="lg"
+                        scrollable
+                        hide-footer
+                        >
+                        
+                            <b-container>
+                                <div class="mb-5">
+                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <p class="text-content-2">
+                                    Daily UI<br>
+                                    #004<br>
+                                    Calculator
+                                    </p>
+                                </div>
+                                <div class="mb-5">
+                                    <b-img src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day4.gif" fluid alt="Fluid image"></b-img>
+                                </div>
+                            </b-container>
+
+                        </b-modal>
 
                     <b-card-img-lazy
                         img-src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day5.jpg"
@@ -67,8 +183,37 @@
                         <b-card-title>{{ __('Web_UI_Title_5')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_5')}}</b-card-text>
 
-                        <b-button href="#" variant="outline-dark">more</b-button>
+                        <!-- v-b-modal.都小寫 -->
+                        <b-button 
+                        v-b-modal.uiwebdesign_5 
+                        variant="outline-dark"
+                        size="sm"
+                        >more
+                        </b-button>
                     </b-card-img-lazy>
+                        <b-modal 
+                        id="uiwebdesign_5"
+                        title="{{ __('Web_UI_Title_1')}}"
+                        size="lg"
+                        scrollable
+                        hide-footer
+                        >
+                        
+                            <b-container>
+                                <div class="mb-5">
+                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <p class="text-content-2">
+                                    Daily UI<br>
+                                    #005<br>
+                                    App Icon
+                                    </p>
+                                </div>
+                                <div class="mb-5">
+                                    <b-img src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day5.jpg" fluid alt="Fluid image"></b-img>
+                                </div>
+                            </b-container>
+
+                        </b-modal>
 
                     <b-card-img-lazy
                         img-src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day6.jpg"
@@ -79,8 +224,37 @@
                         <b-card-title>{{ __('Web_UI_Title_6')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_6')}}</b-card-text>
 
-                        <b-button href="#" variant="outline-dark">more</b-button>
+                        <!-- v-b-modal.都小寫 -->
+                        <b-button 
+                        v-b-modal.uiwebdesign_6
+                        variant="outline-dark"
+                        size="sm"
+                        >more
+                        </b-button>
                     </b-card-img-lazy>
+                        <b-modal 
+                        id="uiwebdesign_6"
+                        title="{{ __('Web_UI_Title_1')}}"
+                        size="lg"
+                        scrollable
+                        hide-footer
+                        >
+                        
+                            <b-container>
+                                <div class="mb-5">
+                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <p class="text-content-2">
+                                    Daily UI<br>
+                                    #006<br>
+                                    User Profile
+                                    </p>
+                                </div>
+                                <div class="mb-5">
+                                    <b-img src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day6.jpg" fluid alt="Fluid image"></b-img>
+                                </div>
+                            </b-container>
+
+                        </b-modal>
 
                 </b-card-group>
 
@@ -94,8 +268,37 @@
                         <b-card-title>{{ __('Web_UI_Title_7')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_7')}}</b-card-text>
 
-                        <b-button href="#" variant="outline-dark">more</b-button>
+                        <!-- v-b-modal.都小寫 -->
+                        <b-button 
+                        v-b-modal.uiwebdesign_7
+                        variant="outline-dark"
+                        size="sm"
+                        >more
+                        </b-button>
                     </b-card-img-lazy>
+                        <b-modal 
+                        id="uiwebdesign_7"
+                        title="{{ __('Web_UI_Title_1')}}"
+                        size="lg"
+                        scrollable
+                        hide-footer
+                        >
+                        
+                            <b-container>
+                                <div class="mb-5">
+                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <p class="text-content-2">
+                                    Daily UI<br>
+                                    #007<br>
+                                    Setting
+                                    </p>
+                                </div>
+                                <div class="mb-5">
+                                    <b-img src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day7.jpg" fluid alt="Fluid image"></b-img>
+                                </div>
+                            </b-container>
+
+                        </b-modal>
 
                     <b-card-img-lazy
                         img-src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day8.jpg"
@@ -106,8 +309,37 @@
                         <b-card-title>{{ __('Web_UI_Title_8')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_8')}}</b-card-text>
 
-                        <b-button href="#" variant="outline-dark">more</b-button>
+                        <!-- v-b-modal.都小寫 -->
+                        <b-button 
+                        v-b-modal.uiwebdesign_8 
+                        variant="outline-dark"
+                        size="sm"
+                        >more
+                        </b-button>
                     </b-card-img-lazy>
+                        <b-modal 
+                        id="uiwebdesign_8"
+                        title="{{ __('Web_UI_Title_1')}}"
+                        size="lg"
+                        scrollable
+                        hide-footer
+                        >
+                        
+                            <b-container>
+                                <div class="mb-5">
+                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <p class="text-content-2">
+                                    Daily UI<br>
+                                    #008<br>
+                                    404 Page
+                                    </p>
+                                </div>
+                                <div class="mb-5">
+                                    <b-img src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day8.jpg" fluid alt="Fluid image"></b-img>
+                                </div>
+                            </b-container>
+
+                        </b-modal>
 
                     <b-card-img-lazy
                         img-src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day9.jpg"
@@ -118,8 +350,37 @@
                         <b-card-title>{{ __('Web_UI_Title_9')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_9')}}</b-card-text>
 
-                        <b-button href="#" variant="outline-dark">more</b-button>
+                        <!-- v-b-modal.都小寫 -->
+                        <b-button 
+                        v-b-modal.uiwebdesign_9 
+                        variant="outline-dark"
+                        size="sm"
+                        >more
+                        </b-button>
                     </b-card-img-lazy>
+                        <b-modal 
+                        id="uiwebdesign_9"
+                        title="{{ __('Web_UI_Title_1')}}"
+                        size="lg"
+                        scrollable
+                        hide-footer
+                        >
+                        
+                            <b-container>
+                                <div class="mb-5">
+                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <p class="text-content-2">
+                                    Daily UI<br>
+                                    #009<br>
+                                    Music Player
+                                    </p>
+                                </div>
+                                <div class="mb-5">
+                                    <b-img src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day9.gif" fluid alt="Fluid image"></b-img>
+                                </div>
+                            </b-container>
+
+                        </b-modal>
 
                 </b-card-group>
 
@@ -133,8 +394,37 @@
                         <b-card-title>{{ __('Web_UI_Title_10')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_10')}}</b-card-text>
 
-                        <b-button href="#" variant="outline-dark">more</b-button>
+                        <!-- v-b-modal.都小寫 -->
+                        <b-button 
+                        v-b-modal.uiwebdesign_10 
+                        variant="outline-dark"
+                        size="sm"
+                        >more
+                        </b-button>
                     </b-card-img-lazy>
+                        <b-modal 
+                        id="uiwebdesign_10"
+                        title="{{ __('Web_UI_Title_1')}}"
+                        size="lg"
+                        scrollable
+                        hide-footer
+                        >
+                        
+                            <b-container>
+                                <div class="mb-5">
+                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <p class="text-content-2">
+                                    Daily UI<br>
+                                    #010<br>
+                                    Social Share
+                                    </p>
+                                </div>
+                                <div class="mb-5">
+                                    <b-img src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day10.gif" fluid alt="Fluid image"></b-img>
+                                </div>
+                            </b-container>
+
+                        </b-modal>
 
                     <b-card-img-lazy
                         img-src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day11.jpg"
@@ -145,8 +435,49 @@
                         <b-card-title>{{ __('Web_UI_Title_11')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_11')}}</b-card-text>
 
-                        <b-button href="#" variant="outline-dark">more</b-button>
+                        <!-- v-b-modal.都小寫 -->
+                        <b-button 
+                        v-b-modal.uiwebdesign_11 
+                        variant="outline-dark"
+                        size="sm"
+                        >more
+                        </b-button>
                     </b-card-img-lazy>
+                        <b-modal 
+                        id="uiwebdesign_11"
+                        title="{{ __('Web_UI_Title_1')}}"
+                        size="lg"
+                        scrollable
+                        hide-footer
+                        >
+                        
+                            <b-container>
+                                <div class="mb-5">
+                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <p class="text-content-2">
+                                    Daily UI<br>
+                                    #011<br>
+                                    Single Product
+                                    </p>
+                                </div>
+                                <div class="mb-5">
+                                    <iframe 
+                                    height="600" 
+                                    style="width: 100%;" 
+                                    scrolling="no" 
+                                    title="Single Product" 
+                                    src="https://codepen.io/Doublin/embed/gGGgZb?height=600&theme-id=light&default-tab=result" 
+                                    frameborder="no" 
+                                    allowtransparency="true" 
+                                    allowfullscreen="true">
+                                    See the Pen 
+                                    <a href='https://codepen.io/Doublin/pen/gGGgZb'>Single Product</a> by Doublin
+                                    (<a href='https://codepen.io/Doublin'>@Doublin</a>) on <a href='https://codepen.io'>CodePen</a>.
+                                    </iframe>
+                                </div>
+                            </b-container>
+
+                        </b-modal>
 
                     <b-card-img-lazy
                         img-src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day12.jpg"
@@ -157,8 +488,37 @@
                         <b-card-title>{{ __('Web_UI_Title_12')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_12')}}</b-card-text>
 
-                        <b-button href="#" variant="outline-dark">more</b-button>
+                        <!-- v-b-modal.都小寫 -->
+                        <b-button 
+                        v-b-modal.uiwebdesign_12 
+                        variant="outline-dark"
+                        size="sm"
+                        >more
+                        </b-button>
                     </b-card-img-lazy>
+                        <b-modal 
+                        id="uiwebdesign_12"
+                        title="{{ __('Web_UI_Title_1')}}"
+                        size="lg"
+                        scrollable
+                        hide-footer
+                        >
+                        
+                            <b-container>
+                                <div class="mb-5">
+                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <p class="text-content-2">
+                                    Daily UI<br>
+                                    #012<br>
+                                    Flash Messages
+                                    </p>
+                                </div>
+                                <div class="mb-5">
+                                    <b-img src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day12.jpg" fluid alt="Fluid image"></b-img>
+                                </div>
+                            </b-container>
+
+                        </b-modal>
 
                 </b-card-group>
 
@@ -172,8 +532,37 @@
                         <b-card-title>{{ __('Web_UI_Title_13')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_13')}}</b-card-text>
 
-                        <b-button href="#" variant="outline-dark">more</b-button>
+                        <!-- v-b-modal.都小寫 -->
+                        <b-button 
+                        v-b-modal.uiwebdesign_13 
+                        variant="outline-dark"
+                        size="sm"
+                        >more
+                        </b-button>
                     </b-card-img-lazy>
+                        <b-modal 
+                        id="uiwebdesign_13"
+                        title="{{ __('Web_UI_Title_1')}}"
+                        size="lg"
+                        scrollable
+                        hide-footer
+                        >
+                        
+                            <b-container>
+                                <div class="mb-5">
+                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <p class="text-content-2">
+                                    Daily UI<br>
+                                    #013<br>
+                                    Flash Messaging
+                                    </p>
+                                </div>
+                                <div class="mb-5">
+                                    <b-img src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day13.jpg" fluid alt="Fluid image"></b-img>
+                                </div>
+                            </b-container>
+
+                        </b-modal>
 
                     <b-card-img-lazy
                         img-src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day14.jpg"
@@ -184,8 +573,49 @@
                         <b-card-title>{{ __('Web_UI_Title_14')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_14')}}</b-card-text>
 
-                        <b-button href="#" variant="outline-dark">more</b-button>
+                        <!-- v-b-modal.都小寫 -->
+                        <b-button 
+                        v-b-modal.uiwebdesign_14 
+                        variant="outline-dark"
+                        size="sm"
+                        >more
+                        </b-button>
                     </b-card-img-lazy>
+                        <b-modal 
+                        id="uiwebdesign_14"
+                        title="{{ __('Web_UI_Title_1')}}"
+                        size="lg"
+                        scrollable
+                        hide-footer
+                        >
+                        
+                            <b-container>
+                                <div class="mb-5">
+                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <p class="text-content-2">
+                                    Daily UI<br>
+                                    #014<br>
+                                    Countdown Timer
+                                    </p>
+                                </div>
+                                <div class="mb-5">
+                                    <iframe 
+                                    height="600" 
+                                    style="width: 100%;" 
+                                    scrolling="no" 
+                                    title="Countdown Timer" 
+                                    src="https://codepen.io/Doublin/embed/xQOxWE?height=600&theme-id=light&default-tab=result" 
+                                    frameborder="no" 
+                                    allowtransparency="true" 
+                                    allowfullscreen="true">
+                                    See the Pen 
+                                    <a href='https://codepen.io/Doublin/pen/xQOxWE'>Countdown Timer</a> by Doublin
+                                    (<a href='https://codepen.io/Doublin'>@Doublin</a>) on <a href='https://codepen.io'>CodePen</a>.
+                                    </iframe>
+                                </div>
+                            </b-container>
+
+                        </b-modal>
 
                     <b-card-img-lazy
                         img-src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day15.jpg"
@@ -196,8 +626,49 @@
                         <b-card-title>{{ __('Web_UI_Title_15')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_15')}}</b-card-text>
 
-                        <b-button href="#" variant="outline-dark">more</b-button>
+                        <!-- v-b-modal.都小寫 -->
+                        <b-button 
+                        v-b-modal.uiwebdesign_15 
+                        variant="outline-dark"
+                        size="sm"
+                        >more
+                        </b-button>
                     </b-card-img-lazy>
+                        <b-modal 
+                        id="uiwebdesign_15"
+                        title="{{ __('Web_UI_Title_1')}}"
+                        size="lg"
+                        scrollable
+                        hide-footer
+                        >
+                        
+                            <b-container>
+                                <div class="mb-5">
+                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <p class="text-content-2">
+                                    Daily UI<br>
+                                    #015<br>
+                                    On/ Off Switch
+                                    </p>
+                                </div>
+                                <div class="mb-5">
+                                    <iframe 
+                                    height="600" 
+                                    style="width: 100%;" 
+                                    scrolling="no" 
+                                    title="On/ Off Switch" 
+                                    src="https://codepen.io/Doublin/embed/qPpjKV?height=600&theme-id=light&default-tab=result" 
+                                    frameborder="no" 
+                                    allowtransparency="true" 
+                                    allowfullscreen="true">
+                                    See the Pen 
+                                    <a href='https://codepen.io/Doublin/pen/qPpjKV'>On/ Off Switch</a> by Doublin
+                                    (<a href='https://codepen.io/Doublin'>@Doublin</a>) on <a href='https://codepen.io'>CodePen</a>.
+                                    </iframe>
+                                </div>
+                            </b-container>
+
+                        </b-modal>
 
                 </b-card-group>
 
@@ -211,8 +682,49 @@
                         <b-card-title>{{ __('Web_UI_Title_16')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_16')}}</b-card-text>
 
-                        <b-button href="#" variant="outline-dark">more</b-button>
+                        <!-- v-b-modal.都小寫 -->
+                        <b-button 
+                        v-b-modal.uiwebdesign_16 
+                        variant="outline-dark"
+                        size="sm"
+                        >more
+                        </b-button>
                     </b-card-img-lazy>
+                        <b-modal 
+                        id="uiwebdesign_16"
+                        title="{{ __('Web_UI_Title_1')}}"
+                        size="lg"
+                        scrollable
+                        hide-footer
+                        >
+                        
+                            <b-container>
+                                <div class="mb-5">
+                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <p class="text-content-2">
+                                    Daily UI<br>
+                                    #016<br>
+                                    Pop-up
+                                    </p>
+                                </div>
+                                <div class="mb-5">
+                                    <iframe 
+                                        height="600" 
+                                        style="width: 100%;" 
+                                        scrolling="no" 
+                                        title="Pop-up" 
+                                        src="https://codepen.io/Doublin/embed/MPzMMB?height=600&theme-id=light&default-tab=result" 
+                                        frameborder="no" 
+                                        allowtransparency="true" 
+                                        allowfullscreen="true">
+                                        See the Pen 
+                                        <a href='https://codepen.io/Doublin/pen/MPzMMB'>Pop-up</a> by Doublin
+                                        (<a href='https://codepen.io/Doublin'>@Doublin</a>) on <a href='https://codepen.io'>CodePen</a>.
+                                    </iframe>
+                                </div>
+                            </b-container>
+
+                        </b-modal>
 
                     <b-card-img-lazy
                         img-src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day17.jpg"
@@ -223,8 +735,49 @@
                         <b-card-title>{{ __('Web_UI_Title_17')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_17')}}</b-card-text>
 
-                        <b-button href="#" variant="outline-dark">more</b-button>
+                        <!-- v-b-modal.都小寫 -->
+                        <b-button 
+                        v-b-modal.uiwebdesign_17 
+                        variant="outline-dark"
+                        size="sm"
+                        >more
+                        </b-button>
                     </b-card-img-lazy>
+                        <b-modal 
+                        id="uiwebdesign_17"
+                        title="{{ __('Web_UI_Title_1')}}"
+                        size="lg"
+                        scrollable
+                        hide-footer
+                        >
+                        
+                            <b-container>
+                                <div class="mb-5">
+                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <p class="text-content-2">
+                                    Daily UI<br>
+                                    #017<br>
+                                    Email Receipt
+                                    </p>
+                                </div>
+                                <div class="mb-5">
+                                    <iframe 
+                                        height="600" 
+                                        style="width: 100%;" 
+                                        scrolling="no" 
+                                        title="Email Receipt" 
+                                        src="https://codepen.io/Doublin/embed/JmQWZL?height=600&theme-id=light&default-tab=result" 
+                                        frameborder="no" 
+                                        allowtransparency="true" 
+                                        allowfullscreen="true">
+                                        See the Pen 
+                                        <a href='https://codepen.io/Doublin/pen/JmQWZL'>Email Receipt</a> by Doublin
+                                        (<a href='https://codepen.io/Doublin'>@Doublin</a>) on <a href='https://codepen.io'>CodePen</a>.
+                                    </iframe>
+                                </div>
+                            </b-container>
+
+                        </b-modal>
 
                     <b-card-img-lazy
                         img-src="http://doublinlin.com/doublin/img/uiWebDesignImg/swap.jpg"
@@ -235,8 +788,37 @@
                         <b-card-title>{{ __('Web_UI_Title_18')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_18')}}</b-card-text>
 
-                        <b-button href="#" variant="outline-dark">more</b-button>
+                        <!-- v-b-modal.都小寫 -->
+                        <b-button 
+                        v-b-modal.uiwebdesign_18 
+                        variant="outline-dark"
+                        size="sm"
+                        >more
+                        </b-button>
                     </b-card-img-lazy>
+                        <b-modal 
+                        id="uiwebdesign_18"
+                        title="{{ __('Web_UI_Title_1')}}"
+                        size="lg"
+                        scrollable
+                        hide-footer
+                        >
+                        
+                            <b-container>
+                                <div class="mb-5">
+                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <p class="text-content-2">
+                                    swap App<br>
+                                    一款交友App，繪製個人資料管理頁面<br>
+                                    因為當時做swap公司在面試我，我自行先繳交的視覺頁面<br>
+                                    </p>
+                                </div>
+                                <div class="mb-5">
+                                    <b-img src="http://doublinlin.com/doublin/img/uiWebDesignImg/swap.jpg" fluid alt="Fluid image"></b-img>
+                                </div>
+                            </b-container>
+
+                        </b-modal>
 
                 </b-card-group>
 
@@ -250,8 +832,45 @@
                         <b-card-title>{{ __('Web_UI_Title_19')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_19')}}</b-card-text>
 
-                        <b-button href="#" variant="outline-dark">more</b-button>
+                        <!-- v-b-modal.都小寫 -->
+                        <b-button 
+                        v-b-modal.uiwebdesign_19 
+                        variant="outline-dark"
+                        size="sm"
+                        >more
+                        </b-button>
                     </b-card-img-lazy>
+                        <b-modal 
+                        id="uiwebdesign_19"
+                        title="{{ __('Web_UI_Title_1')}}"
+                        size="lg"
+                        scrollable
+                        hide-footer
+                        >
+                        
+                            <b-container>
+                                <div class="mb-5">
+                                    <h5 class="text-title-2">製作動力</h5>
+                                    <p class="text-content-2">
+                                    Doublin(2016-2017) 個人網站<br>
+                                    一代網站，用dreamweaver製作<br>
+                                    </p>
+                                    <b-button  
+                                        href="http://doublinlin.com/doublin/doublin(2016-2017)/protfolio.php" 
+                                        class="font-des-6" 
+                                        target="_blank"
+                                        variant="outline-dark"
+                                        size="sm"
+                                    >
+                                    點我進網站
+                                    </b-button>
+                                </div>
+                                <div class="mb-5">
+                                    <b-img src="http://doublinlin.com/doublin/img/uiWebDesignImg/Doublin(2016-2017)-web.jpg" fluid alt="Fluid image"></b-img>
+                                </div>
+                            </b-container>
+
+                        </b-modal>
 
                     <b-card-img-lazy
                         img-src="http://doublinlin.com/doublin/img/uiWebDesignImg/Doublin(2017-2019)-web-01.jpg"
@@ -262,8 +881,45 @@
                         <b-card-title>{{ __('Web_UI_Title_20')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_20')}}</b-card-text>
 
-                        <b-button href="#" variant="outline-dark">more</b-button>
+                        <!-- v-b-modal.都小寫 -->
+                        <b-button 
+                        v-b-modal.uiwebdesign_20 
+                        variant="outline-dark"
+                        size="sm"
+                        >more
+                        </b-button>
                     </b-card-img-lazy>
+                        <b-modal 
+                        id="uiwebdesign_20"
+                        title="{{ __('Web_UI_Title_1')}}"
+                        size="lg"
+                        scrollable
+                        hide-footer
+                        >
+                        
+                            <b-container>
+                                <div class="mb-5">
+                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <p class="text-content-2">
+                                    Doublin(2017-2019) 個人網站<br>
+                                    二代網站，用sublime, Bootstrap3製作<br>
+                                    </p>
+                                    <b-button  
+                                        href="http://doublinlin.com/doublin/index.html" 
+                                        class="font-des-6" 
+                                        target="_blank"
+                                        variant="outline-dark"
+                                        size="sm"
+                                    >
+                                    點我進網站
+                                    </b-button>
+                                </div>
+                                <div class="mb-5">
+                                    <b-img src="http://doublinlin.com/doublin/img/uiWebDesignImg/Doublin(2017-2019)-web-01.jpg" fluid alt="Fluid image"></b-img>
+                                </div>
+                            </b-container>
+
+                        </b-modal>
                 
                     <b-card-img-lazy
                         img-src="http://doublinlin.com/doublin/img/uiWebDesignImg/BDIOT-web.jpg"
@@ -274,8 +930,45 @@
                         <b-card-title>{{ __('Web_UI_Title_21')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_21')}}</b-card-text>
 
-                        <b-button href="#" variant="outline-dark">more</b-button>
+                        <!-- v-b-modal.都小寫 -->
+                        <b-button 
+                        v-b-modal.uiwebdesign_21 
+                        variant="outline-dark"
+                        size="sm"
+                        >more
+                        </b-button>
                     </b-card-img-lazy>
+                        <b-modal 
+                        id="uiwebdesign_21"
+                        title="{{ __('Web_UI_Title_1')}}"
+                        size="lg"
+                        scrollable
+                        hide-footer
+                        >
+                        
+                            <b-container>
+                                <div class="mb-5">
+                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <p class="text-content-2">
+                                    BDIOT 官方網站<br>
+                                    BDIOT 的官方網站為一頁式響應式網站，介紹BDIOT的品牌。
+                                    </p>
+                                    <b-button  
+                                        href="#" 
+                                        class="font-des-6" 
+                                        target="_blank"
+                                        variant="outline-dark"
+                                        size="sm"
+                                    >
+                                    點我進網站
+                                    </b-button>
+                                </div>
+                                <div class="mb-5">
+                                <b-img src="http://doublinlin.com/doublin/img/uiWebDesignImg/BDIOT-web.jpg" fluid alt="Fluid image"></b-img>
+                                </div>
+                            </b-container>
+
+                        </b-modal>
                 </b-card-group>
 
                 <b-card-group deck>
@@ -288,8 +981,45 @@
                         <b-card-title>{{ __('Web_UI_Title_22')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_22')}}</b-card-text>
 
-                        <b-button href="#" variant="outline-dark">more</b-button>
+                        <!-- v-b-modal.都小寫 -->
+                        <b-button 
+                        v-b-modal.uiwebdesign_22 
+                        variant="outline-dark"
+                        size="sm"
+                        >more
+                        </b-button>
                     </b-card-img-lazy>
+                        <b-modal 
+                        id="uiwebdesign_22"
+                        title="{{ __('Web_UI_Title_1')}}"
+                        size="lg"
+                        scrollable
+                        hide-footer
+                        >
+                        
+                            <b-container>
+                                <div class="mb-5">
+                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <p class="text-content-2">
+                                    Topology 官方網站<br>
+                                    Topology 的官方網站為一頁式響應式網站，介紹跟操作無人機。<br>
+                                    </p>
+                                    <b-button  
+                                        href="#" 
+                                        class="font-des-6" 
+                                        target="_blank"
+                                        variant="outline-dark"
+                                        size="sm"
+                                    >
+                                    點我進網站
+                                    </b-button>
+                                </div>
+                                <div class="mb-5">
+                                    <b-img src="http://doublinlin.com/doublin/img/uiWebDesignImg/Topology-web.jpg" fluid alt="Fluid image"></b-img>
+                                </div>
+                            </b-container>
+
+                        </b-modal>
 
                 </b-card-group>
 
