@@ -13,12 +13,12 @@ import { BootstrapVueIcons } from 'bootstrap-vue'
 import 'bootstrap-vue/dist/bootstrap-vue-icons.min.css'
 import VueLoading from 'vue-loading-overlay'
 import 'vue-loading-overlay/dist/vue-loading.css'
+import Lightbox from 'vue-easy-lightbox'
 
-// Install BootstrapVue
 Vue.use(BootstrapVue)
-// Optionally install the BootstrapVue icon components plugin
 Vue.use(IconsPlugin)
 Vue.use(BootstrapVueIcons)
+Vue.use(Lightbox)
 
 require('./bootstrap');
 
@@ -41,6 +41,8 @@ Vue.component('b-embed', BEmbed)
 
 Vue.component('language-switcher', require('./components/LanguageSwitcher.vue').default);
 Vue.component('home', require('./components/Home.vue').default);
+Vue.component('photo', require('./components/Photo.vue').default);
+
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -52,7 +54,7 @@ Vue.component('home', require('./components/Home.vue').default);
 const app = new Vue({
     el: '#app',
     components: {
-        loading: VueLoading
+        loading: VueLoading,
     },
     data: {
       isLoading: true,

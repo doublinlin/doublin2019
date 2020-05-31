@@ -905,7 +905,7 @@
                                     二代網站，用sublime, Bootstrap3製作<br>
                                     </p>
                                     <b-button  
-                                        href="http://doublinlin.com/doublin/index.html" 
+                                        href="http://doublinlin.com/doublin/doublin(2017-2019)/index.html" 
                                         class="font-des-6" 
                                         target="_blank"
                                         variant="outline-dark"
@@ -954,7 +954,7 @@
                                     BDIOT 的官方網站為一頁式響應式網站，介紹BDIOT的品牌。
                                     </p>
                                     <b-button  
-                                        href="#" 
+                                        href="http://doublinlin.com/doublin/BDIOT/index.html" 
                                         class="font-des-6" 
                                         target="_blank"
                                         variant="outline-dark"
@@ -1005,7 +1005,7 @@
                                     Topology 的官方網站為一頁式響應式網站，介紹跟操作無人機。<br>
                                     </p>
                                     <b-button  
-                                        href="#" 
+                                        href="http://doublinlin.com/doublin/Topology/index.html" 
                                         class="font-des-6" 
                                         target="_blank"
                                         variant="outline-dark"
