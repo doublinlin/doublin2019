@@ -2,77 +2,26 @@
 <!-- vue-easy-lightbox -->
   <div class="page-body">
         <div class="page-content">
-                <!-- <button @click="showSingle"></button> -->
-                <!-- <button @click="showMultiple">
-                    <b-card-group deck>
-                        <b-card-img-lazy 
-                        img-src="http://doublinlin.com/doublin/img/photoImg/photo-7.jpg" 
-                        overlay
-                        class="mt-3"
-                        >
-                        </b-card-img-lazy>
+              <div id="lightbox"></div>
+                  <div class="gallery">
+                      <div
+                      v-for="(src, index) in imgs"
+                      :key="index"
+                      class="pic"
+                      @click="() => showImg(index)"
+                      >
+                      <img :src="src">
+                      </div>
+                  </div>
+                  <vue-easy-lightbox
+                      :visible="visible"
+                      :imgs="imgs"
+                      :index="index"
+                      @hide="handleHide"
+                  ></vue-easy-lightbox>
+        </div> 
+  </div>
 
-                        <b-card-img-lazy 
-                        img-src="http://doublinlin.com/doublin/img/photoImg/photo-6.jpg" 
-                        overlay
-                        class="mt-3"
-                        >
-                        </b-card-img-lazy>
-                        
-                        <b-card-img-lazy 
-                        img-src="http://doublinlin.com/doublin/img/photoImg/photo-1.jpg" 
-                        overlay
-                        class="mt-3"
-                        >
-                        </b-card-img-lazy>
-                    </b-card-group>
-
-                    <b-card-group deck>
-                        <b-card-img-lazy 
-                        img-src="http://doublinlin.com/doublin/img/photoImg/photo-3.jpg" 
-                        overlay
-                        class="mt-3"
-                        >
-                        </b-card-img-lazy>
-
-                        <b-card-img-lazy 
-                        img-src="http://doublinlin.com/doublin/img/photoImg/photo-4.jpg" 
-                        overlay
-                        class="mt-3"
-                        >
-                        </b-card-img-lazy>
-
-                        <b-card-img-lazy 
-                        img-src="http://doublinlin.com/doublin/img/photoImg/photo-5.jpg" 
-                        overlay
-                        class="mt-3"
-                        >
-                        </b-card-img-lazy>
-                    </b-card-group>
-                </button> -->
-
-                <div id="lightbox"></div>
-                    <div class="gallery">
-                        <div
-                        v-for="(src, index) in imgs"
-                        :key="index"
-                        class="pic"
-                        @click="() => showImg(index)"
-                        >
-                        <img :src="src">
-                    </div>
-                </div>
-
-                    <vue-easy-lightbox
-                        :visible="visible"
-                        :imgs="imgs"
-                        :index="index"
-                        @hide="handleHide"
-                    ></vue-easy-lightbox>
-                </div> 
-
-        </div>
-    </div>
 </template>
 
 <script>
@@ -88,12 +37,12 @@ export default {
       visible: false,
       index: 0,   // default: 0
       imgs : [
-         'http://doublinlin.com/doublin/img/photoImg/photo-7.jpg',
-         'http://doublinlin.com/doublin/img/photoImg/photo-6.jpg',
-         'http://doublinlin.com/doublin/img/photoImg/photo-1.jpg',
-         'http://doublinlin.com/doublin/img/photoImg/photo-3.jpg',
-         'http://doublinlin.com/doublin/img/photoImg/photo-4.jpg',
-         'http://doublinlin.com/doublin/img/photoImg/photo-5.jpg',
+         'http://doublinlin.com/doublin/doublin(2017-2019)/img/photoImg/photo-7.jpg',
+         'http://doublinlin.com/doublin/doublin(2017-2019)/img/photoImg/photo-6.jpg',
+         'http://doublinlin.com/doublin/doublin(2017-2019)/img/photoImg/photo-1.jpg',
+         'http://doublinlin.com/doublin/doublin(2017-2019)/img/photoImg/photo-3.jpg',
+         'http://doublinlin.com/doublin/doublin(2017-2019)/img/photoImg/photo-4.jpg',
+         'http://doublinlin.com/doublin/doublin(2017-2019)/img/photoImg/photo-5.jpg',
       ],
     }
   },

@@ -8,7 +8,7 @@
             <div class="page-content">
                 <b-card-group deck>
                     <b-card-img-lazy
-                        img-src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day1.jpg"
+                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day1.jpg"
                         img-alt="Image"
                         img-top
                         class="mt-3"
@@ -34,28 +34,27 @@
                         
                             <b-container>
                                 <div class="mb-5">
-                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
-                                    Daily UI<br>
-                                    #001<br>
-                                    Register
+                                    {{ __('Web_UI_Title_1')}}<br>
+                                    {{ __('Web_UI_Content_1')}}<br>
                                     </p>
                                 </div>
                                 <div class="mb-5">
-                                    <b-img src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day1.jpg" fluid alt="Fluid image"></b-img>
+                                    <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day1.jpg" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
 
                         </b-modal>
 
                     <b-card-img-lazy
-                        img-src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day2.jpg" 
+                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day2.jpg" 
                         img-alt="Image"
                         img-top
                         tag="article"
                         class="mt-3"
                     >
-                        <b-card-title>{{ __('Web_UI_Title_2')}}</b-card-title>
+                        <b-card-title>{{ __('Web_UI_Title_1')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_2')}}</b-card-text>
 
                         <!-- v-b-modal.都小寫 -->
@@ -76,27 +75,27 @@
                         
                             <b-container>
                                 <div class="mb-5">
-                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
-                                    Daily UI<br>
-                                    #002<br>
-                                    Checkout
+                                    {{ __('Web_UI_Title_1')}}<br>
+                                    {{ __('Web_UI_Content_2')}}<br>
+
                                     </p>
                                 </div>
                                 <div class="mb-5">
-                                    <b-img src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day2.jpg" fluid alt="Fluid image"></b-img>
+                                    <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day2.jpg" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
 
                         </b-modal>
 
                     <b-card-img-lazy
-                        img-src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day3.jpg"
+                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day3.jpg"
                         img-alt="Image"
                         img-top
                         class="mt-3"
                     >
-                        <b-card-title>{{ __('Web_UI_Title_3')}}</b-card-title>
+                        <b-card-title>{{ __('Web_UI_Title_1')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_3')}}</b-card-text>
 
                         <!-- v-b-modal.都小寫 -->
@@ -117,15 +116,15 @@
                         
                             <b-container>
                                 <div class="mb-5">
-                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
-                                    Daily UI<br>
-                                    #003<br>
-                                    Landing Page
+                                    {{ __('Web_UI_Title_1')}}<br>
+                                    {{ __('Web_UI_Content_3')}}<br>
+                
                                     </p>
                                 </div>
                                 <div class="mb-5">
-                                    <b-img src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day3.jpg" fluid alt="Fluid image"></b-img>
+                                    <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day3.jpg" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
 
@@ -134,12 +133,12 @@
 
                 <b-card-group deck>
                     <b-card-img-lazy
-                        img-src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day4.jpg"
+                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day4.jpg"
                         img-alt="Image"
                         img-top
                         class="mt-3"
                     >
-                        <b-card-title>{{ __('Web_UI_Title_4')}}</b-card-title>
+                        <b-card-title>{{ __('Web_UI_Title_1')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_4')}}</b-card-text>
 
                         <!-- v-b-modal.都小寫 -->
@@ -160,27 +159,27 @@
                         
                             <b-container>
                                 <div class="mb-5">
-                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
-                                    Daily UI<br>
-                                    #004<br>
-                                    Calculator
+                                    {{ __('Web_UI_Title_1')}}<br>
+                                    {{ __('Web_UI_Content_4')}}<br>
+        
                                     </p>
                                 </div>
                                 <div class="mb-5">
-                                    <b-img src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day4.gif" fluid alt="Fluid image"></b-img>
+                                    <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day4.gif" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
 
                         </b-modal>
 
                     <b-card-img-lazy
-                        img-src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day5.jpg"
+                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day5.jpg"
                         img-alt="Image"
                         img-top
                         class="mt-3"
                     >
-                        <b-card-title>{{ __('Web_UI_Title_5')}}</b-card-title>
+                        <b-card-title>{{ __('Web_UI_Title_1')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_5')}}</b-card-text>
 
                         <!-- v-b-modal.都小寫 -->
@@ -201,27 +200,27 @@
                         
                             <b-container>
                                 <div class="mb-5">
-                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
-                                    Daily UI<br>
-                                    #005<br>
-                                    App Icon
+                                    {{ __('Web_UI_Title_1')}}<br>
+                                    {{ __('Web_UI_Content_5')}}<br>
+
                                     </p>
                                 </div>
                                 <div class="mb-5">
-                                    <b-img src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day5.jpg" fluid alt="Fluid image"></b-img>
+                                    <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day5.jpg" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
 
                         </b-modal>
 
                     <b-card-img-lazy
-                        img-src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day6.jpg"
+                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day6.jpg"
                         img-alt="Image"
                         img-top
                         class="mt-3"
                     >
-                        <b-card-title>{{ __('Web_UI_Title_6')}}</b-card-title>
+                        <b-card-title>{{ __('Web_UI_Title_1')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_6')}}</b-card-text>
 
                         <!-- v-b-modal.都小寫 -->
@@ -242,15 +241,15 @@
                         
                             <b-container>
                                 <div class="mb-5">
-                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
-                                    Daily UI<br>
-                                    #006<br>
-                                    User Profile
+                                    {{ __('Web_UI_Title_1')}}<br>
+                                    {{ __('Web_UI_Content_6')}}<br>
+                
                                     </p>
                                 </div>
                                 <div class="mb-5">
-                                    <b-img src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day6.jpg" fluid alt="Fluid image"></b-img>
+                                    <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day6.jpg" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
 
@@ -260,12 +259,12 @@
 
                 <b-card-group deck>
                     <b-card-img-lazy
-                        img-src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day7.jpg"
+                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day7.jpg"
                         img-alt="Image"
                         img-top
                         class="mt-3"
                     >
-                        <b-card-title>{{ __('Web_UI_Title_7')}}</b-card-title>
+                        <b-card-title>{{ __('Web_UI_Title_1')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_7')}}</b-card-text>
 
                         <!-- v-b-modal.都小寫 -->
@@ -286,27 +285,26 @@
                         
                             <b-container>
                                 <div class="mb-5">
-                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
-                                    Daily UI<br>
-                                    #007<br>
-                                    Setting
+                                    {{ __('Web_UI_Title_1')}}<br>
+                                    {{ __('Web_UI_Content_7')}}<br>
                                     </p>
                                 </div>
                                 <div class="mb-5">
-                                    <b-img src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day7.jpg" fluid alt="Fluid image"></b-img>
+                                    <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day7.jpg" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
 
                         </b-modal>
 
                     <b-card-img-lazy
-                        img-src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day8.jpg"
+                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day8.jpg"
                         img-alt="Image"
                         img-top
                         class="mt-3"
                     >
-                        <b-card-title>{{ __('Web_UI_Title_8')}}</b-card-title>
+                        <b-card-title>{{ __('Web_UI_Title_1')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_8')}}</b-card-text>
 
                         <!-- v-b-modal.都小寫 -->
@@ -327,27 +325,27 @@
                         
                             <b-container>
                                 <div class="mb-5">
-                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
-                                    Daily UI<br>
-                                    #008<br>
-                                    404 Page
+                                    {{ __('Web_UI_Title_1')}}<br>
+                                    {{ __('Web_UI_Content_8')}}<br>
+
                                     </p>
                                 </div>
                                 <div class="mb-5">
-                                    <b-img src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day8.jpg" fluid alt="Fluid image"></b-img>
+                                    <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day8.jpg" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
 
                         </b-modal>
 
                     <b-card-img-lazy
-                        img-src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day9.jpg"
+                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day9.jpg"
                         img-alt="Image"
                         img-top
                         class="mt-3"
                     >
-                        <b-card-title>{{ __('Web_UI_Title_9')}}</b-card-title>
+                        <b-card-title>{{ __('Web_UI_Title_1')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_9')}}</b-card-text>
 
                         <!-- v-b-modal.都小寫 -->
@@ -368,15 +366,15 @@
                         
                             <b-container>
                                 <div class="mb-5">
-                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
-                                    Daily UI<br>
-                                    #009<br>
-                                    Music Player
+                                    {{ __('Web_UI_Title_1')}}<br>
+                                    {{ __('Web_UI_Content_9')}}<br>
+                
                                     </p>
                                 </div>
                                 <div class="mb-5">
-                                    <b-img src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day9.gif" fluid alt="Fluid image"></b-img>
+                                    <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day9.gif" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
 
@@ -386,12 +384,12 @@
 
                 <b-card-group deck>
                     <b-card-img-lazy
-                        img-src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day10.jpg"
+                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day10.jpg"
                         img-alt="Image"
                         img-top
                         class="mt-3"
                     >
-                        <b-card-title>{{ __('Web_UI_Title_10')}}</b-card-title>
+                        <b-card-title>{{ __('Web_UI_Title_1')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_10')}}</b-card-text>
 
                         <!-- v-b-modal.都小寫 -->
@@ -412,27 +410,27 @@
                         
                             <b-container>
                                 <div class="mb-5">
-                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
-                                    Daily UI<br>
-                                    #010<br>
-                                    Social Share
+                                    {{ __('Web_UI_Title_1')}}<br>
+                                    {{ __('Web_UI_Content_10')}}<br>
+
                                     </p>
                                 </div>
                                 <div class="mb-5">
-                                    <b-img src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day10.gif" fluid alt="Fluid image"></b-img>
+                                    <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day10.gif" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
 
                         </b-modal>
 
                     <b-card-img-lazy
-                        img-src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day11.jpg"
+                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day11.jpg"
                         img-alt="Image"
                         img-top
                         class="mt-3"
                     >
-                        <b-card-title>{{ __('Web_UI_Title_11')}}</b-card-title>
+                        <b-card-title>{{ __('Web_UI_Title_1')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_11')}}</b-card-text>
 
                         <!-- v-b-modal.都小寫 -->
@@ -453,11 +451,11 @@
                         
                             <b-container>
                                 <div class="mb-5">
-                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
-                                    Daily UI<br>
-                                    #011<br>
-                                    Single Product
+                                    {{ __('Web_UI_Title_1')}}<br>
+                                    {{ __('Web_UI_Content_11')}}<br>
+        
                                     </p>
                                 </div>
                                 <div class="mb-5">
@@ -480,12 +478,12 @@
                         </b-modal>
 
                     <b-card-img-lazy
-                        img-src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day12.jpg"
+                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day12.jpg"
                         img-alt="Image"
                         img-top
                         class="mt-3"
                     >
-                        <b-card-title>{{ __('Web_UI_Title_12')}}</b-card-title>
+                        <b-card-title>{{ __('Web_UI_Title_1')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_12')}}</b-card-text>
 
                         <!-- v-b-modal.都小寫 -->
@@ -506,15 +504,15 @@
                         
                             <b-container>
                                 <div class="mb-5">
-                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
-                                    Daily UI<br>
-                                    #012<br>
-                                    Flash Messages
+                                    {{ __('Web_UI_Title_1')}}<br>
+                                    {{ __('Web_UI_Content_12')}}<br>
+        
                                     </p>
                                 </div>
                                 <div class="mb-5">
-                                    <b-img src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day12.jpg" fluid alt="Fluid image"></b-img>
+                                    <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day12.jpg" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
 
@@ -524,12 +522,12 @@
 
                 <b-card-group deck>
                     <b-card-img-lazy
-                        img-src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day13.jpg"
+                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day13.jpg"
                         img-alt="Image"
                         img-top
                         class="mt-3"
                     >
-                        <b-card-title>{{ __('Web_UI_Title_13')}}</b-card-title>
+                        <b-card-title>{{ __('Web_UI_Title_1')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_13')}}</b-card-text>
 
                         <!-- v-b-modal.都小寫 -->
@@ -550,27 +548,27 @@
                         
                             <b-container>
                                 <div class="mb-5">
-                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
-                                    Daily UI<br>
-                                    #013<br>
-                                    Flash Messaging
+                                    {{ __('Web_UI_Title_1')}}<br>
+                                    {{ __('Web_UI_Content_13')}}<br>
+            
                                     </p>
                                 </div>
                                 <div class="mb-5">
-                                    <b-img src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day13.jpg" fluid alt="Fluid image"></b-img>
+                                    <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day13.jpg" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
 
                         </b-modal>
 
                     <b-card-img-lazy
-                        img-src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day14.jpg"
+                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day14.jpg"
                         img-alt="Image"
                         img-top
                         class="mt-3"
                     >
-                        <b-card-title>{{ __('Web_UI_Title_14')}}</b-card-title>
+                        <b-card-title>{{ __('Web_UI_Title_1')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_14')}}</b-card-text>
 
                         <!-- v-b-modal.都小寫 -->
@@ -591,11 +589,11 @@
                         
                             <b-container>
                                 <div class="mb-5">
-                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
-                                    Daily UI<br>
-                                    #014<br>
-                                    Countdown Timer
+                                    {{ __('Web_UI_Title_1')}}<br>
+                                    {{ __('Web_UI_Content_14')}}<br>
+            
                                     </p>
                                 </div>
                                 <div class="mb-5">
@@ -618,12 +616,12 @@
                         </b-modal>
 
                     <b-card-img-lazy
-                        img-src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day15.jpg"
+                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day15.jpg"
                         img-alt="Image"
                         img-top
                         class="mt-3"
                     >
-                        <b-card-title>{{ __('Web_UI_Title_15')}}</b-card-title>
+                        <b-card-title>{{ __('Web_UI_Title_1')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_15')}}</b-card-text>
 
                         <!-- v-b-modal.都小寫 -->
@@ -644,11 +642,11 @@
                         
                             <b-container>
                                 <div class="mb-5">
-                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
-                                    Daily UI<br>
-                                    #015<br>
-                                    On/ Off Switch
+                                    {{ __('Web_UI_Title_1')}}<br>
+                                    {{ __('Web_UI_Content_15')}}<br>
+        
                                     </p>
                                 </div>
                                 <div class="mb-5">
@@ -674,12 +672,12 @@
 
                 <b-card-group deck>
                     <b-card-img-lazy
-                        img-src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day16.jpg"
+                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day16.jpg"
                         img-alt="Image"
                         img-top
                         class="mt-3"
                     >
-                        <b-card-title>{{ __('Web_UI_Title_16')}}</b-card-title>
+                        <b-card-title>{{ __('Web_UI_Title_1')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_16')}}</b-card-text>
 
                         <!-- v-b-modal.都小寫 -->
@@ -700,11 +698,10 @@
                         
                             <b-container>
                                 <div class="mb-5">
-                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
-                                    Daily UI<br>
-                                    #016<br>
-                                    Pop-up
+                                    {{ __('Web_UI_Title_1')}}<br>
+                                    {{ __('Web_UI_Content_16')}}
                                     </p>
                                 </div>
                                 <div class="mb-5">
@@ -727,12 +724,12 @@
                         </b-modal>
 
                     <b-card-img-lazy
-                        img-src="http://doublinlin.com/doublin/img/uiWebDesignImg/Day17.jpg"
+                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day17.jpg"
                         img-alt="Image"
                         img-top
                         class="mt-3"
                     >
-                        <b-card-title>{{ __('Web_UI_Title_17')}}</b-card-title>
+                        <b-card-title>{{ __('Web_UI_Title_1')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_17')}}</b-card-text>
 
                         <!-- v-b-modal.都小寫 -->
@@ -753,11 +750,11 @@
                         
                             <b-container>
                                 <div class="mb-5">
-                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
-                                    Daily UI<br>
-                                    #017<br>
-                                    Email Receipt
+                                    {{ __('Web_UI_Title_1')}}<br>
+                                    {{ __('Web_UI_Content_17')}}<br>
+    
                                     </p>
                                 </div>
                                 <div class="mb-5">
@@ -780,7 +777,7 @@
                         </b-modal>
 
                     <b-card-img-lazy
-                        img-src="http://doublinlin.com/doublin/img/uiWebDesignImg/swap.jpg"
+                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/swap.jpg"
                         img-alt="Image"
                         img-top
                         class="mt-3"
@@ -806,15 +803,14 @@
                         
                             <b-container>
                                 <div class="mb-5">
-                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
-                                    swap App<br>
-                                    一款交友App，繪製個人資料管理頁面<br>
-                                    因為當時做swap公司在面試我，我自行先繳交的視覺頁面<br>
+                                    {{ __('Web_UI_Title_1')}}<br>
+                                    {{ __('Web_UI_Reason_Content_18-1')}}<br>
                                     </p>
                                 </div>
                                 <div class="mb-5">
-                                    <b-img src="http://doublinlin.com/doublin/img/uiWebDesignImg/swap.jpg" fluid alt="Fluid image"></b-img>
+                                    <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/swap.jpg" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
 
@@ -824,7 +820,7 @@
 
                 <b-card-group deck>
                     <b-card-img-lazy
-                        img-src="http://doublinlin.com/doublin/img/uiWebDesignImg/Doublin(2016-2017)-web.jpg"
+                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Doublin(2016-2017)-web.jpg"
                         img-alt="Image"
                         img-top
                         class="mt-3"
@@ -850,30 +846,30 @@
                         
                             <b-container>
                                 <div class="mb-5">
-                                    <h5 class="text-title-2">製作動力</h5>
+                                    <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
-                                    Doublin(2016-2017) 個人網站<br>
-                                    一代網站，用dreamweaver製作<br>
+                                    {{ __('Web_UI_Reason_Content_19-1')}}<br>
+                                    {{ __('Web_UI_Reason_Content_19-2')}}<br>
                                     </p>
                                     <b-button  
-                                        href="http://doublinlin.com/doublin/doublin(2016-2017)/protfolio.php" 
+                                        href="http://doublinlin.com/doublin/doublin(2017-2019)/doublin(2016-2017)/protfolio.php" 
                                         class="font-des-6" 
                                         target="_blank"
                                         variant="outline-dark"
                                         size="sm"
                                     >
-                                    點我進網站
+                                    {{ __('Web_UI_Click_Me_Into_Web')}}
                                     </b-button>
                                 </div>
                                 <div class="mb-5">
-                                    <b-img src="http://doublinlin.com/doublin/img/uiWebDesignImg/Doublin(2016-2017)-web.jpg" fluid alt="Fluid image"></b-img>
+                                    <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Doublin(2016-2017)-web.jpg" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
 
                         </b-modal>
 
                     <b-card-img-lazy
-                        img-src="http://doublinlin.com/doublin/img/uiWebDesignImg/Doublin(2017-2019)-web-01.jpg"
+                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Doublin(2017-2019)-web-01.jpg"
                         img-alt="Image"
                         img-top
                         class="mt-3"
@@ -899,30 +895,30 @@
                         
                             <b-container>
                                 <div class="mb-5">
-                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
-                                    Doublin(2017-2019) 個人網站<br>
-                                    二代網站，用sublime, Bootstrap3製作<br>
+                                    {{ __('Web_UI_Reason_Content_20-1')}}<br>
+                                    {{ __('Web_UI_Reason_Content_20-2')}}<br>
                                     </p>
                                     <b-button  
-                                        href="http://doublinlin.com/doublin/doublin(2017-2019)/index.html" 
+                                        href="http://doublinlin.com/doublin/doublin(2017-2019)/doublin(2017-2019)/index.html" 
                                         class="font-des-6" 
                                         target="_blank"
                                         variant="outline-dark"
                                         size="sm"
                                     >
-                                    點我進網站
+                                    {{ __('Web_UI_Click_Me_Into_Web')}}
                                     </b-button>
                                 </div>
                                 <div class="mb-5">
-                                    <b-img src="http://doublinlin.com/doublin/img/uiWebDesignImg/Doublin(2017-2019)-web-01.jpg" fluid alt="Fluid image"></b-img>
+                                    <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Doublin(2017-2019)-web-01.jpg" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
 
                         </b-modal>
                 
                     <b-card-img-lazy
-                        img-src="http://doublinlin.com/doublin/img/uiWebDesignImg/BDIOT-web.jpg"
+                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/BDIOT-web.jpg"
                         img-alt="Image"
                         img-top
                         class="mt-3"
@@ -948,10 +944,9 @@
                         
                             <b-container>
                                 <div class="mb-5">
-                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
-                                    BDIOT 官方網站<br>
-                                    BDIOT 的官方網站為一頁式響應式網站，介紹BDIOT的品牌。
+                                    {{ __('Web_UI_Reason_Content_21-1')}}<br>
                                     </p>
                                     <b-button  
                                         href="http://doublinlin.com/doublin/BDIOT/index.html" 
@@ -960,11 +955,11 @@
                                         variant="outline-dark"
                                         size="sm"
                                     >
-                                    點我進網站
+                                    {{ __('Web_UI_Click_Me_Into_Web')}}
                                     </b-button>
                                 </div>
                                 <div class="mb-5">
-                                <b-img src="http://doublinlin.com/doublin/img/uiWebDesignImg/BDIOT-web.jpg" fluid alt="Fluid image"></b-img>
+                                <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/BDIOT-web.jpg" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
 
@@ -973,7 +968,7 @@
 
                 <b-card-group deck>
                     <b-card-img-lazy
-                        img-src="http://doublinlin.com/doublin/img/uiWebDesignImg/Topology-web.jpg"
+                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Topology-web.jpg"
                         img-alt="Image"
                         img-top
                         class="mt-3"
@@ -999,10 +994,9 @@
                         
                             <b-container>
                                 <div class="mb-5">
-                                    <h5 class="text-title-2">繪製動力</h5>
+                                    <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
-                                    Topology 官方網站<br>
-                                    Topology 的官方網站為一頁式響應式網站，介紹跟操作無人機。<br>
+                                    {{ __('Web_UI_Reason_Content_22-1')}}<br>
                                     </p>
                                     <b-button  
                                         href="http://doublinlin.com/doublin/Topology/index.html" 
@@ -1011,11 +1005,11 @@
                                         variant="outline-dark"
                                         size="sm"
                                     >
-                                    點我進網站
+                                    {{ __('Web_UI_Click_Me_Into_Web')}}
                                     </b-button>
                                 </div>
                                 <div class="mb-5">
-                                    <b-img src="http://doublinlin.com/doublin/img/uiWebDesignImg/Topology-web.jpg" fluid alt="Fluid image"></b-img>
+                                    <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Topology-web.jpg" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
 
