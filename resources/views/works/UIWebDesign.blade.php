@@ -795,7 +795,7 @@
                     </b-card-img-lazy>
                         <b-modal 
                         id="uiwebdesign_18"
-                        title="{{ __('Web_UI_Title_1')}}"
+                        title="{{ __('Web_UI_Title_18')}}"
                         size="lg"
                         scrollable
                         hide-footer
@@ -805,8 +805,8 @@
                                 <div class="mb-5">
                                     <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
-                                    {{ __('Web_UI_Title_1')}}<br>
                                     {{ __('Web_UI_Reason_Content_18-1')}}<br>
+                                    {{ __('Web_UI_Reason_Content_18-2')}}<br>
                                     </p>
                                 </div>
                                 <div class="mb-5">
@@ -838,7 +838,7 @@
                     </b-card-img-lazy>
                         <b-modal 
                         id="uiwebdesign_19"
-                        title="{{ __('Web_UI_Title_1')}}"
+                        title="{{ __('Web_UI_Title_19')}}"
                         size="lg"
                         scrollable
                         hide-footer
@@ -848,8 +848,7 @@
                                 <div class="mb-5">
                                     <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
-                                    {{ __('Web_UI_Reason_Content_19-1')}}<br>
-                                    {{ __('Web_UI_Reason_Content_19-2')}}<br>
+                                    {{ __('Web_UI_Reason_Content_19-1')}}<br>
                                     </p>
                                     <b-button  
                                         href="http://doublinlin.com/doublin/doublin(2017-2019)/doublin(2016-2017)/protfolio.php" 
@@ -887,7 +886,7 @@
                     </b-card-img-lazy>
                         <b-modal 
                         id="uiwebdesign_20"
-                        title="{{ __('Web_UI_Title_1')}}"
+                        title="{{ __('Web_UI_Title_20')}}"
                         size="lg"
                         scrollable
                         hide-footer
@@ -898,7 +897,6 @@
                                     <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
                                     {{ __('Web_UI_Reason_Content_20-1')}}<br>
-                                    {{ __('Web_UI_Reason_Content_20-2')}}<br>
                                     </p>
                                     <b-button  
                                         href="http://doublinlin.com/doublin/doublin(2017-2019)/doublin(2017-2019)/index.html" 
@@ -936,7 +934,7 @@
                     </b-card-img-lazy>
                         <b-modal 
                         id="uiwebdesign_21"
-                        title="{{ __('Web_UI_Title_1')}}"
+                        title="{{ __('Web_UI_Title_21')}}"
                         size="lg"
                         scrollable
                         hide-footer
@@ -986,7 +984,7 @@
                     </b-card-img-lazy>
                         <b-modal 
                         id="uiwebdesign_22"
-                        title="{{ __('Web_UI_Title_1')}}"
+                        title="{{ __('Web_UI_Title_22')}}"
                         size="lg"
                         scrollable
                         hide-footer

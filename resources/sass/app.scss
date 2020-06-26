@@ -79,9 +79,13 @@
 }
 
 /* 響應式圖片 */
-img-responsive {
+.img-responsive {
     width: 200px;
     max-width: 100%;
     height: auto;
     }
-
+.video-responsive {
+    width: 600px;
+    max-width: 100%;
+    height: auto;
+    }

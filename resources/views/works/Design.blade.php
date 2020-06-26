@@ -275,17 +275,18 @@
                             </b-container>
                         </b-modal>
 
-                    <b-card-img-lazy
+                    <!-- Topology -->
+                    <!-- <b-card-img-lazy
                         img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/designImg/Topology-stage.jpg"
                         img-alt="Image"
                         img-top
                         class="mt-3"
                     >
                         <b-card-title>{{ __('Design_Title_8')}}</b-card-title>
-                        <b-card-text>{{ __('Design_Content_8')}}</b-card-text>
+                        <b-card-text>{{ __('Design_Content_8')}}</b-card-text> -->
 
                         <!-- v-b-modal.都小寫 -->
-                        <b-button 
+                        <!-- <b-button 
                         v-b-modal.design_8 
                         variant="outline-dark"
                         size="sm"
@@ -309,7 +310,7 @@
                                     <img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/designImg/Topology-board.jpg" class="emSpace-2" alt="Topology" width="100%" />
                                 </div>
                             </b-container>
-                        </b-modal>
+                        </b-modal> -->
 
                     <b-card-img-lazy
                         img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/designImg/12.jpg"
