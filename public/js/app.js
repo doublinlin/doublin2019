@@ -82724,10 +82724,7 @@ var render = function() {
           _c("img", {
             staticClass: "w-8 h-8",
             attrs: {
-              src:
-                "http://doublinlin.com/doublin/doublin/public/images/flag_" +
-                _vm.locale +
-                ".png",
+              src: "/images/lang/flag_" + _vm.locale + ".png",
               alt: "flag"
             }
           }),
@@ -82871,8 +82868,7 @@ var render = function() {
                       _c("img", {
                         staticClass: "h-8 w-8",
                         attrs: {
-                          src:
-                            "http://doublinlin.com/doublin/doublin/public/images/flag_en.png",
+                          src: "/images/lang/flag_en.png",
                           alt: "english flag"
                         }
                       }),
@@ -83000,8 +82996,7 @@ var render = function() {
                       _c("img", {
                         staticClass: "h-8 w-8",
                         attrs: {
-                          src:
-                            "http://doublinlin.com/doublin/doublin/public/images/flag_zh.png",
+                          src: "/images/lang/flag_zh.png",
                           alt: "english flag"
                         }
                       }),
@@ -95349,19 +95344,13 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('b-embed', bootstrap_vue__W
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('language-switcher', __webpack_require__(/*! ./components/LanguageSwitcher.vue */ "./resources/js/components/LanguageSwitcher.vue")["default"]);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('home', __webpack_require__(/*! ./components/Home.vue */ "./resources/js/components/Home.vue")["default"]);
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.component('photo', __webpack_require__(/*! ./components/Photo.vue */ "./resources/js/components/Photo.vue")["default"]);
-/**
- * Next, we will create a fresh Vue application instance and attach it to
- * the page. Then, you may begin adding components to this application
- * or customize the JavaScript scaffolding to fit your unique needs.
- */
-
 var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
   el: '#app',
-  components: {
-    loading: vue_loading_overlay__WEBPACK_IMPORTED_MODULE_5___default.a
-  },
   data: {
     isLoading: true
+  },
+  components: {
+    loading: vue_loading_overlay__WEBPACK_IMPORTED_MODULE_5___default.a
   },
   mounted: function mounted() {
     var _this = this;
@@ -95371,6 +95360,11 @@ var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
     }, 500);
   }
 });
+/**
+ * Next, we will create a fresh Vue application instance and attach it to
+ * the page. Then, you may begin adding components to this application
+ * or customize the JavaScript scaffolding to fit your unique needs.
+ */
 
 /***/ }),
 

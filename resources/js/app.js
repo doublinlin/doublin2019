@@ -44,25 +44,22 @@ Vue.component('home', require('./components/Home.vue').default);
 Vue.component('photo', require('./components/Photo.vue').default);
 
 
+const app = new Vue({
+    el: '#app',
+    data: {
+        isLoading: true,
+    },
+    components: {
+        loading: VueLoading,
+    },
+    mounted() {
+        setTimeout(() => {
+            this.isLoading = false
+        }, 500)
+    }
+});
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
-
-
-const app = new Vue({
-    el: '#app',
-    components: {
-        loading: VueLoading,
-    },
-    data: {
-      isLoading: true,
-      
-    },
-    mounted(){
-         setTimeout(() => {
-            this.isLoading = false
-        },500)
-    }
-});
