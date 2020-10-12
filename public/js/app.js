@@ -82724,7 +82724,10 @@ var render = function() {
           _c("img", {
             staticClass: "w-8 h-8",
             attrs: {
-              src: "images/lang/flag_" + _vm.locale + ".png",
+              src:
+                "http://doublinlin.com/doublin/doublin/public/images/lang/flag_" +
+                _vm.locale +
+                ".png",
               alt: "flag"
             }
           }),
@@ -82868,7 +82871,8 @@ var render = function() {
                       _c("img", {
                         staticClass: "h-8 w-8",
                         attrs: {
-                          src: "images/lang/flag_en.png",
+                          src:
+                            "http://doublinlin.com/doublin/doublin/public/images/lang/flag_en.png",
                           alt: "english flag"
                         }
                       }),
@@ -82996,7 +83000,8 @@ var render = function() {
                       _c("img", {
                         staticClass: "h-8 w-8",
                         attrs: {
-                          src: "images/lang/flag_zh.png",
+                          src:
+                            "http://doublinlin.com/doublin/doublin/public/images/lang/flag_zh.png",
                           alt: "english flag"
                         }
                       }),
