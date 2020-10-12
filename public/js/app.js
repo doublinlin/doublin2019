@@ -50024,7 +50024,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\nbutton[data-v-621aa444] {\n  padding: 0;\n  border: none;\n  font: inherit;\n  color: inherit;\n  background-color: transparent;\n  cursor: pointer;\n}\n.flex[data-v-621aa444] {\n    display: flex;\n    align-items: center;\n}\nimg[data-v-621aa444] {\n    width: 1rem;\n    height: 1rem;\n}\nul[data-v-621aa444] {\n    list-style-type: none;\n    padding-left: 0;\n    position: absolute;\n    z-index: 30;\n    right: 0;\n}\n.relative[data-v-621aa444] {\n    position: relative;\n}\n.language[data-v-621aa444]{\n    margin: 10px 0 0 10px;\n}\n.dropdown-fade-enter-active[data-v-621aa444], .dropdown-fade-leave-active[data-v-621aa444] {\n    transition: all .1s ease-in-out;\n}\n.dropdown-fade-enter[data-v-621aa444], .dropdown-fade-leave-to[data-v-621aa444] {\n    opacity: 0;\n    transform: translateY(-12px);\n}\n", ""]);
+exports.push([module.i, "\nbutton[data-v-621aa444] {\n  padding: 0;\n  border: none;\n  font: inherit;\n  color: inherit;\n  background-color: transparent;\n  cursor: pointer;\n}\n.flex[data-v-621aa444] {\n    display: flex;\n    align-items: center;\n}\nimg[data-v-621aa444] {\n    width: 1rem;\n    height: 1rem;\n}\n@media (max-width:768px){\nul[data-v-621aa444] {\n      list-style-type: none;\n      padding-left: 0;\n      position: absolute;\n      z-index: 30;\n      left: 0;\n      width: 150px;\n}\n}\nul[data-v-621aa444] {\n    list-style-type: none;\n    padding-left: 0;\n    position: absolute;\n    z-index: 30;\n    right: 0;\n}\n.relative[data-v-621aa444] {\n    position: relative;\n}\n.language[data-v-621aa444]{\n    margin: 10px 0 0 10px;\n}\n.dropdown-fade-enter-active[data-v-621aa444], .dropdown-fade-leave-active[data-v-621aa444] {\n    transition: all .1s ease-in-out;\n}\n.dropdown-fade-enter[data-v-621aa444], .dropdown-fade-leave-to[data-v-621aa444] {\n    opacity: 0;\n    transform: translateY(-12px);\n}\n", ""]);
 
 // exports
 
@@ -82724,7 +82724,7 @@ var render = function() {
           _c("img", {
             staticClass: "w-8 h-8",
             attrs: {
-              src: "/images/lang/flag_" + _vm.locale + ".png",
+              src: "images/lang/flag_" + _vm.locale + ".png",
               alt: "flag"
             }
           }),
@@ -82868,7 +82868,7 @@ var render = function() {
                       _c("img", {
                         staticClass: "h-8 w-8",
                         attrs: {
-                          src: "/images/lang/flag_en.png",
+                          src: "images/lang/flag_en.png",
                           alt: "english flag"
                         }
                       }),
@@ -82996,7 +82996,7 @@ var render = function() {
                       _c("img", {
                         staticClass: "h-8 w-8",
                         attrs: {
-                          src: "/images/lang/flag_zh.png",
+                          src: "images/lang/flag_zh.png",
                           alt: "english flag"
                         }
                       }),

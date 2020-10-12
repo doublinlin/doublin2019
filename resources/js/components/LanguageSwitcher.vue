@@ -10,7 +10,7 @@
       @keydown.up.exact.prevent="startArrowKeys"
       @keydown.down.exact.prevent="startArrowKeys"
     >
-      <img :src="`/images/lang/flag_${locale}.png`" alt="flag" class="w-8 h-8">
+      <img :src="`images/lang/flag_${locale}.png`" alt="flag" class="w-8 h-8">
       <span class="ml-2">{{ locale.toUpperCase() }}</span>
       <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"></path></svg>
     </button>
@@ -26,7 +26,7 @@
             @keydown.down.exact.prevent="focusNext(true)"
             @keydown.esc.exact="hideDropdown"
           >
-            <img src="/images/lang/flag_en.png" alt="english flag" class="h-8 w-8">
+            <img src="images/lang/flag_en.png" alt="english flag" class="h-8 w-8">
             <span class="ml-2">English</span>
           </a>
         </li>
@@ -54,7 +54,7 @@
             @keydown.tab.exact="hideDropdown"
             @keydown.esc.exact="hideDropdown"
           >
-            <img src="/images/lang/flag_zh.png" alt="english flag" class="h-8 w-8">
+            <img src="images/lang/flag_zh.png" alt="english flag" class="h-8 w-8">
             <span class="ml-2">Chinese</span>
           </a>
         </li>
@@ -128,6 +128,16 @@ export default {
     img {
         width: 1rem;
         height: 1rem;
+    }
+    @media (max-width:768px){
+      ul {
+          list-style-type: none;
+          padding-left: 0;
+          position: absolute;
+          z-index: 30;
+          left: 0;
+          width: 150px;
+      }
     }
     ul {
         list-style-type: none;

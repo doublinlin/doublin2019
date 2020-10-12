@@ -851,7 +851,7 @@
                                     {{ __('Web_UI_Reason_Content_19-1')}}<br>
                                     </p>
                                     <b-button  
-                                        href="http://doublinlin.com/doublin/doublin(2017-2019)/doublin(2016-2017)/protfolio.php" 
+                                        href="http://doublinlin.com/doublin/doublin(2016-2017)/protfolio.php" 
                                         class="font-des-6" 
                                         target="_blank"
                                         variant="outline-dark"
@@ -899,7 +899,7 @@
                                     {{ __('Web_UI_Reason_Content_20-1')}}<br>
                                     </p>
                                     <b-button  
-                                        href="http://doublinlin.com/doublin/doublin(2017-2019)/doublin(2017-2019)/index.html" 
+                                        href="http://doublinlin.com/doublin/doublin(2017-2019)/index.html" 
                                         class="font-des-6" 
                                         target="_blank"
                                         variant="outline-dark"
