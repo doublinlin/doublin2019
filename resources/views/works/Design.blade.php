@@ -312,7 +312,7 @@
 
                         <!-- DozzyCozy -->
                         <b-card-img-lazy
-                        img-src="/images/design/DozzyCozy_logo.jpg"
+                        img-src="http://doublinlin.com/doublin/doublin/public/images/design/DozzyCozy_logo.jpg"
                         img-alt="Image"
                         img-top
                         class="mt-3"
@@ -341,7 +341,7 @@
                                     <h5 class="text-title-2">{{ __('Design_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
                                     {{ __('Design_Reason_Content_9-1')}}</p>
-                                    <img src="/images/design/DozzyCozy_logo_01.jpg" class="emSpace-2" width="100%" />
+                                    <img src="http://doublinlin.com/doublin/doublin/public/images/design/DozzyCozy_logo_01.jpg" class="emSpace-2" width="100%" />
                                 </div>
                             </b-container>
                         </b-modal>
@@ -351,7 +351,7 @@
                 <b-card-group deck>
                     <!-- AirCozy -->
                     <b-card-img-lazy
-                        img-src="/images/design/AirCozy_logo.jpg"
+                        img-src="http://doublinlin.com/doublin/doublin/public/images/design/AirCozy_logo.jpg"
                         img-alt="Image"
                         img-top
                         class="mt-3"
@@ -380,14 +380,14 @@
                                     <h5 class="text-title-2">{{ __('Design_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
                                     {{ __('Design_Reason_Content_10-1')}}</p>
-                                    <img src="/images/design/AirCozy_logo_01.jpg" class="emSpace-2" width="100%" />
+                                    <img src="http://doublinlin.com/doublin/doublin/public/images/design/AirCozy_logo_01.jpg" class="emSpace-2" width="100%" />
                                 </div>
                             </b-container>
                         </b-modal>
 
                     <!-- Wedding Card -->
                     <b-card-img-lazy
-                        img-src="/images/design/Wedding_invitation.jpg"
+                        img-src="http://doublinlin.com/doublin/doublin/public/images/design/Wedding_invitation.jpg"
                         img-alt="Image"
                         img-top
                         class="mt-3"
@@ -416,7 +416,7 @@
                                     <h5 class="text-title-2">{{ __('Design_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
                                     {{ __('Design_Reason_Content_11-1')}}</p>
-                                    <img src="/images/design/Wedding_invitation_01.jpg" class="emSpace-2" width="100%" />
+                                    <img src="http://doublinlin.com/doublin/doublin/public/images/design/Wedding_invitation_01.jpg" class="emSpace-2" width="100%" />
                                 </div>
                             </b-container>
                         </b-modal>
