@@ -1010,9 +1010,54 @@
                                     <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Topology-web.jpg" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
-
                         </b-modal>
 
+                    <b-card-img-lazy
+                        img-src="{{ url('images/UIWebDesign/pgr-web.jpg') }}"
+                        img-alt="Image"
+                        img-top
+                        class="mt-3"
+                    >
+                        <b-card-title>{{ __('Web_UI_Title_23')}}</b-card-title>
+                        <b-card-text>{{ __('Web_UI_Content_23')}}</b-card-text>
+
+                        <!-- v-b-modal.都小寫 -->
+                        <b-button 
+                        v-b-modal.uiwebdesign_23 
+                        variant="outline-dark"
+                        size="sm"
+                        >more
+                        </b-button>
+                    </b-card-img-lazy>
+                        <b-modal 
+                        id="uiwebdesign_23"
+                        title="{{ __('Web_UI_Title_23')}}"
+                        size="lg"
+                        scrollable
+                        hide-footer
+                        >
+                        
+                            <b-container>
+                                <div class="mb-5">
+                                    <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
+                                    <p class="text-content-2">
+                                    {{ __('Web_UI_Reason_Content_23-1')}}<br>
+                                    </p>
+                                    <b-button  
+                                        href="https://www.pgrental.com.tw/" 
+                                        class="font-des-6" 
+                                        target="_blank"
+                                        variant="outline-dark"
+                                        size="sm"
+                                    >
+                                    {{ __('Web_UI_Click_Me_Into_Web')}}
+                                    </b-button>
+                                </div>
+                                <div class="mb-5">
+                                    <b-img src="{{ url('images/UIWebDesign/pgr-web.jpg') }}" fluid alt="Fluid image"></b-img>
+                                </div>
+                            </b-container>
+                        </b-modal>
                 </b-card-group>
 
             </div>

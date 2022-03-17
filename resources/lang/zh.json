@@ -100,7 +100,7 @@
     "Design_Reason_Content_9-1" : "簡單大方跟科技感，logo中結合了D跟C。",
     "Design_Title_10" : "AirCozy",
     "Design_Content_10" : "logo",
-    "Design_Reason_Content_10-1" : "logo呈現空氣流動，營造輕盈無負擔的感覺。",
+    "Design_Reason_Content_10-1" : "logo呈現空氣流動，營造輕盈的感覺。",
     "Design_Title_11" : "手繪人像喜帖",
     "Design_Content_11" : "喜帖設計",
     "Design_Reason_Content_11-1" : "用繪圖板一筆筆勾勒出柔和線條，再層層畫出細膩色彩以及陰影。",
@@ -143,6 +143,9 @@
     "Web_UI_Title_22" : "Topology 官方網站",
     "Web_UI_Content_22" : "Topology 製作跟販賣無人機",
     "Web_UI_Reason_Content_22-1" : "Topology 的官方網站為響應式網站，介紹跟操作無人機。",
+    "Web_UI_Title_23" : "寶嘉租車 官方網站",
+    "Web_UI_Content_23" : "提供預約租車",
+    "Web_UI_Reason_Content_23-1" : "介紹租車車種、活動介紹、線上預約表格。",
 
     "6" : "Video.vue",
     "Video_Title_1" : "Tempa",
