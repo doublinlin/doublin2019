@@ -1058,6 +1058,194 @@
                                 </div>
                             </b-container>
                         </b-modal>
+
+                    <b-card-img-lazy
+                    img-src="{{ url('images/UIWebDesign/caSheenOrder-web.jpg') }}"
+                    img-alt="Image"
+                    img-top
+                    class="mt-3"
+                    >
+                        <b-card-title>{{ __('Web_UI_Title_24')}}</b-card-title>
+                        <b-card-text>{{ __('Web_UI_Content_24')}}</b-card-text>
+
+                        <!-- v-b-modal.都小寫 -->
+                        <b-button 
+                        v-b-modal.uiwebdesign_24 
+                        variant="outline-dark"
+                        size="sm"
+                        >more
+                        </b-button>
+                    </b-card-img-lazy>
+                        <b-modal 
+                        id="uiwebdesign_24"
+                        title="{{ __('Web_UI_Title_24')}}"
+                        size="lg"
+                        scrollable
+                        hide-footer
+                        >
+                            <b-container>
+                                <div class="mb-5">
+                                    <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
+                                    <p class="text-content-2">
+                                    {{ __('Web_UI_Reason_Content_24-1')}}<br>
+                                    </p>
+                                    <b-button  
+                                        href="https://www.dozzycozy.com/zh-tw" 
+                                        class="font-des-6" 
+                                        target="_blank"
+                                        variant="outline-dark"
+                                        size="sm"
+                                    >
+                                    {{ __('Web_UI_Click_Me_Into_Web')}}
+                                    </b-button>
+                                </div>
+                                <div class="mb-5">
+                                    <b-img src="{{ url('images/UIWebDesign/Dozzycozy-web.jpg') }}" fluid alt="Fluid image"></b-img>
+                                </div>
+                            </b-container>
+                        </b-modal>
+                </b-card-group>
+
+                <b-card-group deck>
+                    <b-card-img-lazy
+                        img-src="{{ url('images/UIWebDesign/CodePro-web.jpg') }}"
+                        img-alt="Image"
+                        img-top
+                        class="mt-3"
+                    >
+                        <b-card-title>{{ __('Web_UI_Title_25')}}</b-card-title>
+                        <b-card-text>{{ __('Web_UI_Content_25')}}</b-card-text>
+
+                        <!-- v-b-modal.都小寫 -->
+                        <b-button 
+                        v-b-modal.uiwebdesign_25 
+                        variant="outline-dark"
+                        size="sm"
+                        >more
+                        </b-button>
+                    </b-card-img-lazy>
+                        <b-modal 
+                        id="uiwebdesign_25"
+                        title="{{ __('Web_UI_Title_25')}}"
+                        size="lg"
+                        scrollable
+                        hide-footer
+                        >
+                        
+                            <b-container>
+                                <div class="mb-5">
+                                    <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
+                                    <p class="text-content-2">
+                                    {{ __('Web_UI_Reason_Content_25-1')}}<br>
+                                    </p>
+                                    <b-button  
+                                        href="https://www.codepro123.com/" 
+                                        class="font-des-6" 
+                                        target="_blank"
+                                        variant="outline-dark"
+                                        size="sm"
+                                    >
+                                    {{ __('Web_UI_Click_Me_Into_Web')}}
+                                    </b-button>
+                                </div>
+                                <div class="mb-5">
+                                    <b-img src="{{ url('images/UIWebDesign/CodePro-web.jpg') }}" fluid alt="Fluid image"></b-img>
+                                </div>
+                            </b-container>
+                        </b-modal>
+
+                    <b-card-img-lazy
+                        img-src="{{ url('images/UIWebDesign/caSheenOfficial-web.jpg') }}"
+                        img-alt="Image"
+                        img-top
+                        class="mt-3"
+                    >
+                        <b-card-title>{{ __('Web_UI_Title_26')}}</b-card-title>
+                        <b-card-text>{{ __('Web_UI_Content_26')}}</b-card-text>
+
+                        <!-- v-b-modal.都小寫 -->
+                        <b-button 
+                        v-b-modal.uiwebdesign_26 
+                        variant="outline-dark"
+                        size="sm"
+                        >more
+                        </b-button>
+                    </b-card-img-lazy>
+                        <b-modal 
+                        id="uiwebdesign_26"
+                        title="{{ __('Web_UI_Title_26')}}"
+                        size="lg"
+                        scrollable
+                        hide-footer
+                        >
+                        
+                            <b-container>
+                                <div class="mb-5">
+                                    <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
+                                    <p class="text-content-2">
+                                    {{ __('Web_UI_Reason_Content_26-1')}}<br>
+                                    </p>
+                                    <b-button  
+                                        href="https://www.casheenpos.com/" 
+                                        class="font-des-6" 
+                                        target="_blank"
+                                        variant="outline-dark"
+                                        size="sm"
+                                    >
+                                    {{ __('Web_UI_Click_Me_Into_Web')}}
+                                    </b-button>
+                                </div>
+                                <div class="mb-5">
+                                    <b-img src="{{ url('images/UIWebDesign/caSheenOfficial-web.jpg') }}" fluid alt="Fluid image"></b-img>
+                                </div>
+                            </b-container>
+                        </b-modal>
+
+                    <b-card-img-lazy
+                    img-src="{{ url('images/UIWebDesign/caSheenOrder-web.jpg') }}"
+                    img-alt="Image"
+                    img-top
+                    class="mt-3"
+                    >
+                        <b-card-title>{{ __('Web_UI_Title_27')}}</b-card-title>
+                        <b-card-text>{{ __('Web_UI_Content_27')}}</b-card-text>
+
+                        <!-- v-b-modal.都小寫 -->
+                        <b-button 
+                        v-b-modal.uiwebdesign_27 
+                        variant="outline-dark"
+                        size="sm"
+                        >more
+                        </b-button>
+                    </b-card-img-lazy>
+                        <b-modal 
+                        id="uiwebdesign_27"
+                        title="{{ __('Web_UI_Title_27')}}"
+                        size="lg"
+                        scrollable
+                        hide-footer
+                        >
+                            <b-container>
+                                <div class="mb-5">
+                                    <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
+                                    <p class="text-content-2">
+                                    {{ __('Web_UI_Reason_Content_27-1')}}<br>
+                                    </p>
+                                    <b-button  
+                                        href="https://www.casheenorder.com/trendigi" 
+                                        class="font-des-6" 
+                                        target="_blank"
+                                        variant="outline-dark"
+                                        size="sm"
+                                    >
+                                    {{ __('Web_UI_Click_Me_Into_Web')}}
+                                    </b-button>
+                                </div>
+                                <div class="mb-5">
+                                    <b-img src="{{ url('images/UIWebDesign/caSheenOrder-web.jpg') }}" fluid alt="Fluid image"></b-img>
+                                </div>
+                            </b-container>
+                        </b-modal>
                 </b-card-group>
 
             </div>
