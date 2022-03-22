@@ -1060,7 +1060,7 @@
                         </b-modal>
 
                     <b-card-img-lazy
-                    img-src="{{ url('images/UIWebDesign/caSheenOrder-web.jpg') }}"
+                    img-src="{{ url('images/UIWebDesign/Dozzycozy-web.jpg') }}"
                     img-alt="Image"
                     img-top
                     class="mt-3"
