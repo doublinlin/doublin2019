@@ -86,6 +86,12 @@
                             </div>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="http://www.doublinlin.com/" target="_blank">{{ __('Blog') }}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/doublinlin" target="_blank">Github</a>
+                        </li>
+                        <li class="nav-item">
                             <language-switcher
                                 locale="{{ app()->getLocale() }}"
                                 link-en="{{ route(Route::currentRouteName(), 'en') }}"

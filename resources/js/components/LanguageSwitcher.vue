@@ -55,7 +55,7 @@
             @keydown.esc.exact="hideDropdown"
           >
             <img src="http://doublinlin.com/doublin/doublin/public/images/lang/flag_zh.png" alt="english flag" class="h-8 w-8">
-            <span class="ml-2">Chinese</span>
+            <span class="ml-2">中文</span>
           </a>
         </li>
       </ul>
