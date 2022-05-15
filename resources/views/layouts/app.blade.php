@@ -17,15 +17,14 @@
     <link rel="manifest" href="{{ url('favicon/site.webmanifest') }}">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113284831-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3MBTB7CD3Z"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'UA-113284831-1');
+    gtag('config', 'G-3MBTB7CD3Z');
     </script>
-
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
