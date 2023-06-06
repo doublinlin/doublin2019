@@ -154,7 +154,8 @@
                                     <h5 class="text-title-2">{{ __('Design_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
                                     {{ __('Design_Reason_Content_4-1')}}</p>
-                                    <img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/designImg/Tempa_box.jpg" class="emSpace-2" alt="tempa" width="100%" />
+                                    <img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/designImg/Tempa_businessCard.jpg" class="emSpace-2" alt="tempa" width="100%" />
+                                    <!-- <img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/designImg/Tempa_box.jpg" class="emSpace-2" alt="tempa" width="100%" /> -->
                                     <img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/designImg/Tempa_banner_1.jpg" class="emSpace-2" alt="tempa" width="100%" />
                                     <img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/designImg/Tempa_banner_5.jpg" class="emSpace-2" alt="tempa" width="100%" />
                                     <img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/designImg/Tempa_banner_4.jpg" class="emSpace-2" alt="tempa" width="100%" />
@@ -164,7 +165,7 @@
                         </b-modal>
 
                     <b-card-img-lazy
-                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/designImg/gentleman_businessCard.jpg"
+                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/designImg/gentleman_banner_1.jpg"
                         img-alt="Image"
                         img-top
                         class="mt-3"
@@ -193,6 +194,7 @@
                                     <h5 class="text-title-2">{{ __('Design_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
                                     {{ __('Design_Reason_Content_5-1')}}</p>
+                                    <img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/designImg/gentleman_businessCard.jpg" class="emSpace-2" alt="gentleman" width="100%" />
                                     <img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/designImg/gentleman_banner_1.jpg" class="emSpace-2" alt="gentleman" width="100%" />
                                     <img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/designImg/gentleman_banner_2.jpg" class="emSpace-2" alt="gentleman" width="100%" />
                                     <img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/designImg/gentleman_DM.jpg" class="emSpace-2" alt="gentleman" width="100%" />
@@ -269,24 +271,24 @@
                                     <h5 class="text-title-2">{{ __('Design_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
                                     {{ __('Design_Reason_Content_7-1')}}</p>
+                                    <img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/designImg/BDIOT-businessCard.jpg" class="emSpace-2" alt="BDIOT" width="100%" />
                                     <img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/designImg/BDIOT-DM.jpg" class="emSpace-2" alt="BDIOT" width="100%" />
                                     <img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/designImg/BDIOT-t-shirt.jpg" class="emSpace-2" alt="BDIOT" width="100%" />
                                 </div>
                             </b-container>
                         </b-modal>
 
-                    <!-- Topology -->
-                    <!-- <b-card-img-lazy
-                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/designImg/Topology-stage.jpg"
+                    <b-card-img-lazy
+                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/designImg/12.jpg"
                         img-alt="Image"
                         img-top
                         class="mt-3"
                     >
                         <b-card-title>{{ __('Design_Title_8')}}</b-card-title>
-                        <b-card-text>{{ __('Design_Content_8')}}</b-card-text> -->
+                        <b-card-text>{{ __('Design_Content_8')}}</b-card-text>
 
                         <!-- v-b-modal.都小寫 -->
-                        <!-- <b-button 
+                        <b-button 
                         v-b-modal.design_8 
                         variant="outline-dark"
                         size="sm"
@@ -306,20 +308,20 @@
                                     <h5 class="text-title-2">{{ __('Design_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
                                     {{ __('Design_Reason_Content_8-1')}}</p>
-                                    <img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/designImg/Topology-DM.jpg" class="emSpace-2" alt="Topology" width="100%" />
-                                    <img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/designImg/Topology-board.jpg" class="emSpace-2" alt="Topology" width="100%" />
+                                    <img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/designImg/12-1.jpg" class="emSpace-2" alt="12" width="100%" />
                                 </div>
                             </b-container>
-                        </b-modal> -->
+                        </b-modal>
 
-                    <b-card-img-lazy
-                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/designImg/12.jpg"
+                        <!-- DozzyCozy -->
+                        <b-card-img-lazy
+                        img-src="http://doublinlin.com/doublin/doublin/public/images/design/DozzyCozy_logo.jpg"
                         img-alt="Image"
                         img-top
                         class="mt-3"
                     >
                         <b-card-title>{{ __('Design_Title_9')}}</b-card-title>
-                        <b-card-text>{{ __('Design_Content_9')}}</b-card-text>
+                        <b-card-text>{{ __('Design_Content_9')}}</b-card-text> 
 
                         <!-- v-b-modal.都小寫 -->
                         <b-button 
@@ -342,7 +344,160 @@
                                     <h5 class="text-title-2">{{ __('Design_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
                                     {{ __('Design_Reason_Content_9-1')}}</p>
-                                    <img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/designImg/12-1.jpg" class="emSpace-2" alt="12" width="100%" />
+                                    <img src="http://doublinlin.com/doublin/doublin/public/images/design/DozzyCozy_logo_01.jpg" class="emSpace-2" width="100%" />
+                                </div>
+                            </b-container>
+                        </b-modal>
+
+                </b-card-group>
+
+                <b-card-group deck>
+                    <!-- AirCozy -->
+                    <b-card-img-lazy
+                        img-src="http://doublinlin.com/doublin/doublin/public/images/design/AirCozy_logo.jpg"
+                        img-alt="Image"
+                        img-top
+                        class="mt-3"
+                    >
+                        <b-card-title>{{ __('Design_Title_10')}}</b-card-title>
+                        <b-card-text>{{ __('Design_Content_10')}}</b-card-text> 
+
+                        <!-- v-b-modal.都小寫 -->
+                        <b-button 
+                        v-b-modal.design_10
+                        variant="outline-dark"
+                        size="sm"
+                        >more
+                        </b-button>
+                    </b-card-img-lazy>
+                        <b-modal 
+                        id="design_10"
+                        title="{{ __('Design_Title_10')}}"
+                        size="lg"
+                        scrollable
+                        hide-footer
+                        >
+                        
+                            <b-container>
+                                <div class="mb-5">
+                                    <h5 class="text-title-2">{{ __('Design_Reason_Title_1')}}</h5>
+                                    <p class="text-content-2">
+                                    {{ __('Design_Reason_Content_10-1')}}</p>
+                                    <img src="http://doublinlin.com/doublin/doublin/public/images/design/AirCozy_logo_01.jpg" class="emSpace-2" width="100%" />
+                                </div>
+                            </b-container>
+                        </b-modal>
+
+                    <!-- Wedding Card -->
+                    <b-card-img-lazy
+                        img-src="http://doublinlin.com/doublin/doublin/public/images/design/Wedding_invitation.jpg"
+                        img-alt="Image"
+                        img-top
+                        class="mt-3"
+                    >
+                        <b-card-title>{{ __('Design_Title_11')}}</b-card-title>
+                        <b-card-text>{{ __('Design_Content_11')}}</b-card-text> 
+
+                        <!-- v-b-modal.都小寫 -->
+                        <b-button 
+                        v-b-modal.design_11
+                        variant="outline-dark"
+                        size="sm"
+                        >more
+                        </b-button>
+                    </b-card-img-lazy>
+                        <b-modal 
+                        id="design_11"
+                        title="{{ __('Design_Title_11')}}"
+                        size="lg"
+                        scrollable
+                        hide-footer
+                        >
+                        
+                            <b-container>
+                                <div class="mb-5">
+                                    <h5 class="text-title-2">{{ __('Design_Reason_Title_1')}}</h5>
+                                    <p class="text-content-2">
+                                    {{ __('Design_Reason_Content_11-1')}}</p>
+                                    <img src="http://doublinlin.com/doublin/doublin/public/images/design/Wedding_invitation_01.jpg" class="emSpace-2" width="100%" />
+                                </div>
+                            </b-container>
+                        </b-modal>
+
+                    <!-- Dozzycozy others-->
+                    <b-card-img-lazy
+                        img-src="{{ url('images/design/Dozzycozy_buessineCard.jpg') }}"
+                        img-alt="Image"
+                        img-top
+                        class="mt-3"
+                    >
+                        <b-card-title>{{ __('Design_Title_12')}}</b-card-title>
+                        <b-card-text>{{ __('Design_Content_12')}}</b-card-text> 
+
+                        <!-- v-b-modal.都小寫 -->
+                        <b-button 
+                        v-b-modal.design_12
+                        variant="outline-dark"
+                        size="sm"
+                        >more
+                        </b-button>
+                    </b-card-img-lazy>
+                        <b-modal 
+                        id="design_12"
+                        title="{{ __('Design_Title_12')}}"
+                        size="lg"
+                        scrollable
+                        hide-footer
+                        >
+                        
+                            <b-container>
+                                <div class="mb-5">
+                                    <h5 class="text-title-2">{{ __('Design_Reason_Title_1')}}</h5>
+                                    <p class="text-content-2">
+                                    {{ __('Design_Reason_Content_12-1')}}</p>
+                                    <img src="{{ url('images/design/Dozzycozy_buessineCard.jpg') }}" class="emSpace-2" width="100%" />
+                                    <img src="{{ url('images/design/Dozzycozy_pillowBox.jpg') }}" class="emSpace-2" width="100%" />
+                                    <img src="{{ url('images/design/Dozzycozy_manual.jpg') }}" class="emSpace-2" width="100%" />
+                                    <img src="{{ url('images/design/Dozzycozy_flyer.jpg') }}" class="emSpace-2" width="100%" />
+                                </div>
+                            </b-container>
+                        </b-modal>
+
+                </b-card-group>
+                
+                <b-card-group deck>
+                    <!-- Trendigi -->
+                    <b-card-img-lazy
+                        img-src="{{ url('images/design/Trendigi_bookCover.jpg') }}"
+                        img-alt="Image"
+                        img-top
+                        class="mt-3"
+                    >
+                        <b-card-title>{{ __('Design_Title_13')}}</b-card-title>
+                        <b-card-text>{{ __('Design_Content_13')}}</b-card-text> 
+
+                        <!-- v-b-modal.都小寫 -->
+                        <b-button 
+                        v-b-modal.design_13
+                        variant="outline-dark"
+                        size="sm"
+                        >more
+                        </b-button>
+                    </b-card-img-lazy>
+                        <b-modal 
+                        id="design_13"
+                        title="{{ __('Design_Title_13')}}"
+                        size="lg"
+                        scrollable
+                        hide-footer
+                        >
+                        
+                            <b-container>
+                                <div class="mb-5">
+                                    <h5 class="text-title-2">{{ __('Design_Reason_Title_1')}}</h5>
+                                    <p class="text-content-2">
+                                    {{ __('Design_Reason_Content_13-1')}}</p>
+                                    <img src="{{ url('images/design/Trendigi_bookCover_02.jpg') }}" class="emSpace-2" width="100%" />
                                 </div>
                             </b-container>
                         </b-modal>

@@ -9,6 +9,23 @@
 
     <title>{{ __('Doublin') }}</title>
 
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{{ url('favicon/favicon.ico') }}" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ url('favicon/apple-touch-icon.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ url('favicon/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ url('favicon/favicon-16x16.png') }}">
+    <link rel="manifest" href="{{ url('favicon/site.webmanifest') }}">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4GCZDR57LE"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-4GCZDR57LE');
+    </script>
+
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
@@ -67,6 +84,12 @@
                                 <a class="dropdown-item" href="{{ route('works.Photo', app()->getLocale()) }}">{{ __('Photo')}}</a>
                                 <a class="dropdown-item" href="{{ route('works.Video', app()->getLocale()) }}">{{ __('Video')}}</a>
                             </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://www.doublinlin.com/" target="_blank">{{ __('Blog') }}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/doublinlin" target="_blank">Github</a>
                         </li>
                         <li class="nav-item">
                             <language-switcher
