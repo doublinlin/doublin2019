@@ -27,7 +27,7 @@
     "Skills_Title" : "Skills",
     "Skills_Content_1" : "Illustration",
     "Skills_Content_2" : "Advertising Visual",
-    "Skills_Content_3" : "Website Designing",
+    "Skills_Content_3" : "Website Designing(html、css、Bootstrap、jQuery)",
     "Language_Title" : "Language",
     "Language_Content_1" : "Native Mandarin Chinese",
     "Language_Content_2" : "English",
@@ -175,9 +175,14 @@
     "Web_UI_Title_26" : "caSheen Official Website",
     "Web_UI_Content_26" : "caSheen Restaurant POS",
     "Web_UI_Reason_Content_26-1" : "caSheen Restaurant POS",
+
     "Web_UI_Title_27" : "caSheen Order Website",
     "Web_UI_Content_27" : "Website for guests to order food.",
     "Web_UI_Reason_Content_27-1" : "Website for guests to order food.",
+
+    "Web_UI_Title_28" : "Icon Website",
+    "Web_UI_Content_28" : "Collect html code.",
+    "Web_UI_Reason_Content_28-1" : "I can quickly find the icon to use when I make website",
 
     "6" : "Video.vue",
     "Video_Title_1" : "Tempa",

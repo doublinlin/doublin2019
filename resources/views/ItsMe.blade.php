@@ -98,7 +98,7 @@
                                 <b-col md="12" class="text-title">
                                 <i class="fas fa-briefcase"></i>
                                 &nbsp;{{ __('Work_Experience_Content_7') }}<br>
-                                &emsp;&ensp;2019 - now
+                                &emsp;&ensp;2019 - 2022
                                 </b-col>
                                 <b-col md="12" class="text-content">
                                 &emsp;&ensp;{{ __('Work_Experience_Content_8') }}
@@ -109,7 +109,7 @@
                                 <b-col md="12" class="text-title">
                                 <i class="fas fa-briefcase"></i>
                                 &nbsp;{{ __('Work_Experience_Content_9') }}<br>
-                                &emsp;&ensp;2019 - now
+                                &emsp;&ensp;2022 - now
                                 </b-col>
                                 <b-col md="12" class="text-content">
                                 &emsp;&ensp;{{ __('Work_Experience_Content_10') }}

@@ -30,7 +30,7 @@
     "Skills_Title" : "技能",
     "Skills_Content_1" : "插畫",
     "Skills_Content_2" : "廣告設計",
-    "Skills_Content_3" : "網頁設計",
+    "Skills_Content_3" : "網頁設計(html、css、Bootstrap、jQuery)",
     "Language_Title" : "語言",
     "Language_Content_1" : "中文",
     "Language_Content_2" : "英文",
@@ -167,6 +167,9 @@
     "Web_UI_Title_27" : "caSheen 點餐網頁",
     "Web_UI_Content_27" : "供客人網頁點餐",
     "Web_UI_Reason_Content_27-1" : "供客人網頁點餐",
+    "Web_UI_Title_28" : "Icon 網頁",
+    "Web_UI_Content_28" : "蒐集 html 字元編碼",
+    "Web_UI_Reason_Content_28-1" : "自己做網頁時，能快速找到 icon 來使用",
 
     "6" : "Video.vue",
     "Video_Title_1" : "Tempa",

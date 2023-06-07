@@ -1201,7 +1201,7 @@
                             </b-container>
                         </b-modal>
 
-                    <b-card-img-lazy
+                    <!-- <b-card-img-lazy
                     img-src="{{ url('images/UIWebDesign/caSheenOrder-web.jpg') }}"
                     img-alt="Image"
                     img-top
@@ -1210,7 +1210,6 @@
                         <b-card-title>{{ __('Web_UI_Title_27')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_27')}}</b-card-text>
 
-                        <!-- v-b-modal.都小寫 -->
                         <b-button 
                         v-b-modal.uiwebdesign_27 
                         variant="outline-dark"
@@ -1243,6 +1242,53 @@
                                 </div>
                                 <div class="mb-5">
                                     <b-img src="{{ url('images/UIWebDesign/caSheenOrder-web.jpg') }}" fluid alt="Fluid image"></b-img>
+                                </div>
+                            </b-container>
+                        </b-modal> -->
+
+                        <b-card-img-lazy
+                        img-src="{{ url('images/UIWebDesign/icon-doublinlin-web.png') }}"
+                        img-alt="Image"
+                        img-top
+                        class="mt-3"
+                    >
+                        <b-card-title>{{ __('Web_UI_Title_28')}}</b-card-title>
+                        <b-card-text>{{ __('Web_UI_Content_28')}}</b-card-text>
+
+                    <!-- v-b-modal.都小寫 -->
+                    <b-button 
+                        v-b-modal.uiwebdesign_28 
+                        variant="outline-dark"
+                        size="sm"
+                        >more
+                        </b-button>
+                    </b-card-img-lazy>
+                        <b-modal 
+                        id="uiwebdesign_28"
+                        title="{{ __('Web_UI_Title_28')}}"
+                        size="lg"
+                        scrollable
+                        hide-footer
+                        >
+                        
+                            <b-container>
+                                <div class="mb-5">
+                                    <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
+                                    <p class="text-content-2">
+                                    {{ __('Web_UI_Reason_Content_28-1')}}<br>
+                                    </p>
+                                    <b-button  
+                                        href="http://icon.doublinlin.com/HtmlEntities" 
+                                        class="font-des-6" 
+                                        target="_blank"
+                                        variant="outline-dark"
+                                        size="sm"
+                                    >
+                                    {{ __('Web_UI_Click_Me_Into_Web')}}
+                                    </b-button>
+                                </div>
+                                <div class="mb-5">
+                                    <b-img src="{{ url('images/UIWebDesign/icon-doublinlin-web.png') }}" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
                         </b-modal>
