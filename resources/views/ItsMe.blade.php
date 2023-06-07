@@ -104,6 +104,17 @@
                                 &emsp;&ensp;{{ __('Work_Experience_Content_8') }}
                                 </b-col>
                                 </b-row>
+
+                                <b-row class="config-2">
+                                <b-col md="12" class="text-title">
+                                <i class="fas fa-briefcase"></i>
+                                &nbsp;{{ __('Work_Experience_Content_9') }}<br>
+                                &emsp;&ensp;2019 - now
+                                </b-col>
+                                <b-col md="12" class="text-content">
+                                &emsp;&ensp;{{ __('Work_Experience_Content_10') }}
+                                </b-col>
+                                </b-row>
                                 
                             </b-container>
                             </p>
