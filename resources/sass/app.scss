@@ -1,0 +1,95 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+
+// Colors
+$black: #000;
+$gray: #808080;
+$light_gray: #f7f7f7;
+
+.page-body {
+    padding-bottom: 8rem;
+    padding-top: 65px;
+    overflow: hidden;
+}
+.page-content {
+    max-width: 750px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    overflow: hidden;
+    position: relative;
+    -webkit-animation: page-content 1s infinite;
+    animation: page-content 1s infinite;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+.navbar-nav .dropdown-menu {
+    position: static;
+    float: none;
+    right: 0;
+    left: auto;
+}
+.text-title{
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: $black;
+}
+
+/* 響應式圖片 */
+.img-responsive {
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+    }
+.video-responsive {
+    width: 600px;
+    max-width: 100%;
+    height: auto;
+    font-size: 11pt;
+    color: $black;
+    padding: 0.4em 0 0.2em 0;
+}
+.text-content{
+    font-weight: 300;
+    font-size: 11pt;
+    color: $gray;
+    padding: 0.4em 0 0.2em 0;
+}
+.text-title-2{
+    font-weight: 300;
+    font-size: 14pt;
+    color: $black;
+    padding: 0.4em 0 0.2em 0;
+}
+.text-content-2{
+    font-weight: 300;
+    font-size: 12pt;
+    color: $gray;
+    padding: 0.4em 0 0.2em 0;
+}
+.config{
+    padding: 0 0 0 15pt;
+}
+.config-2{
+    padding: 0 0 0 15pt;
+    margin: 15pt 0 0 0;
+}
+.footer{
+    padding: 5px 0px 5px 0px;
+    width: 100%;
+    position: relative;
+    clear: both;
+    background: $light_gray;
+}
+.copyrights {
+    padding: 1rem;
+    text-align: center;
+}

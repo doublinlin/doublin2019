@@ -1,0 +1,65 @@
+/**
+ * First we will load all of this project's JavaScript dependencies which
+ * includes Vue and other libraries. It is a great starting point when
+ * building robust, powerful web applications using Vue and Laravel.
+ */
+import Vue from 'vue'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
+import { BCard } from 'bootstrap-vue'
+import { BEmbed } from 'bootstrap-vue'
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+import { BootstrapVueIcons } from 'bootstrap-vue'
+import 'bootstrap-vue/dist/bootstrap-vue-icons.min.css'
+import VueLoading from 'vue-loading-overlay'
+import 'vue-loading-overlay/dist/vue-loading.css'
+import Lightbox from 'vue-easy-lightbox'
+
+Vue.use(BootstrapVue)
+Vue.use(IconsPlugin)
+Vue.use(BootstrapVueIcons)
+Vue.use(Lightbox)
+
+require('./bootstrap');
+
+window.Vue = require('vue');
+
+Vue.component('b-card-img-lazy', BCard)
+Vue.component('b-embed', BEmbed)
+
+
+/**
+ * The following block of code may be used to automatically register your
+ * Vue components. It will recursively scan this directory for the Vue
+ * components and automatically register them with their "basename".
+ *
+ * Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
+ */
+
+// const files = require.context('./', true, /\.vue$/i)
+// files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
+
+Vue.component('language-switcher', require('./components/LanguageSwitcher.vue').default);
+Vue.component('home', require('./components/Home.vue').default);
+Vue.component('photo', require('./components/Photo.vue').default);
+
+
+const app = new Vue({
+    el: '#app',
+    data: {
+        isLoading: true,
+    },
+    components: {
+        loading: VueLoading,
+    },
+    mounted() {
+        setTimeout(() => {
+            this.isLoading = false
+        }, 500)
+    }
+});
+/**
+ * Next, we will create a fresh Vue application instance and attach it to
+ * the page. Then, you may begin adding components to this application
+ * or customize the JavaScript scaffolding to fit your unique needs.
+ */
