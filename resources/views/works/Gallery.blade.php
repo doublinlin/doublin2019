@@ -7,31 +7,32 @@
         <div class="page-body">
             <div class="page-content">
                 <b-card-group deck>
-                    <b-card-img-lazy
+                    <b-card
                         img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/galleryImg/Doublin_bag_1_850.jpg"
                         img-alt="Image"
                         img-top
                         class="mt-3"
+                        loading="lazy"
                     >
                         <b-card-title>{{ __('Gallery_Title_1')}}</b-card-title>
                         <b-card-text>{{ __('Gallery_Content_1')}}</b-card-text>
-                        
+
                         <!-- v-b-modal.都小寫 -->
-                        <b-button 
-                        v-b-modal.gallery_1 
+                        <b-button
+                        v-b-modal.gallery_1
                         variant="outline-dark"
                         size="sm"
                         >more
                         </b-button>
-                    </b-card-img-lazy>
-                        <b-modal 
+                    </b-card>
+                        <b-modal
                         id="gallery_1"
                         title="{{ __('Gallery_Title_1')}}"
                         size="lg"
                         scrollable
                         hide-footer
                         >
-                        
+
                             <b-container>
                                 <div class="mb-5">
                                     <h5 class="text-title-2">{{ __('Gallery_Reason_Title_1')}}</h5>
@@ -47,32 +48,33 @@
 
                         </b-modal>
 
-                    <b-card-img-lazy
+                    <b-card
                         img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/galleryImg/Doublin_bag_2_850.jpg"
                         img-alt="Image"
                         img-top
                         tag="article"
                         class="mt-3"
+                        loading="lazy"
                     >
                         <b-card-title>{{ __('Gallery_Title_2')}}</b-card-title>
                         <b-card-text>{{ __('Gallery_Content_2')}}</b-card-text>
 
                         <!-- v-b-modal.都小寫 -->
-                        <b-button 
+                        <b-button
                         v-b-modal.gallery_2
                         variant="outline-dark"
                         size="sm"
                         >more
                         </b-button>
-                    </b-card-img-lazy>
-                        <b-modal 
+                    </b-card>
+                        <b-modal
                         id="gallery_2"
                         title="{{ __('Gallery_Title_1')}}"
                         size="lg"
                         scrollable
                         hide-footer
                         >
-                        
+
                             <b-container>
                                 <div class="mb-5">
                                     <h5 class="text-title-2">{{ __('Gallery_Reason_Title_1')}}</h5>
@@ -88,31 +90,32 @@
 
                         </b-modal>
 
-                    <b-card-img-lazy
+                    <b-card
                         img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/galleryImg/Doublin_bag_3_850.jpg"
                         img-alt="Image"
                         img-top
                         class="mt-3"
+                        loading="lazy"
                     >
                         <b-card-title>{{ __('Gallery_Title_3')}}</b-card-title>
                         <b-card-text>{{ __('Gallery_Content_3')}}</b-card-text>
 
                         <!-- v-b-modal.都小寫 -->
-                        <b-button 
-                        v-b-modal.gallery_3 
+                        <b-button
+                        v-b-modal.gallery_3
                         variant="outline-dark"
                         size="sm"
                         >more
                         </b-button>
-                    </b-card-img-lazy>
-                        <b-modal 
+                    </b-card>
+                        <b-modal
                         id="gallery_3"
                         title="{{ __('Gallery_Title_1')}}"
                         size="lg"
                         scrollable
                         hide-footer
                         >
-                        
+
                             <b-container>
                                 <div class="mb-5">
                                     <h5 class="text-title-2">{{ __('Gallery_Reason_Title_1')}}</h5>
@@ -130,32 +133,33 @@
                 </b-card-group>
 
                 <b-card-group deck>
-                    <b-card-img-lazy
+                    <b-card
                         img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/galleryImg/Line_name.jpg"
                         img-alt="Image"
                         img-top
                         class="mt-3"
+                        loading="lazy"
                     >
 
                         <b-card-title>{{ __('Gallery_Title_4')}}</b-card-title>
                         <b-card-text>{{ __('Gallery_Content_4')}}</b-card-text>
 
                         <!-- v-b-modal.都小寫 -->
-                        <b-button 
-                        v-b-modal.gallery_4 
+                        <b-button
+                        v-b-modal.gallery_4
                         variant="outline-dark"
                         size="sm"
                         >more
                         </b-button>
-                    </b-card-img-lazy>
-                        <b-modal 
+                    </b-card>
+                        <b-modal
                         id="gallery_4"
                         title="{{ __('Gallery_Title_1')}}"
                         size="lg"
                         scrollable
                         hide-footer
                         >
-                        
+
                             <b-container>
                                 <div class="mb-5">
                                     <h5 class="text-title-2">{{ __('Gallery_Reason_Title_1')}}</h5>
@@ -173,14 +177,13 @@
 
                 </b-card-group>
 
-                
             </div>
         </div>
 
     </div>
 </div>
 
-<script>
+<!-- <script>
   export default {
     data() {
       return {
@@ -188,6 +191,6 @@
       }
     }
   }
-</script>
+</script> -->
 
 @endsection

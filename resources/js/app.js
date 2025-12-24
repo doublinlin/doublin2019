@@ -1,65 +1,48 @@
-/**
- * First we will load all of this project's JavaScript dependencies which
- * includes Vue and other libraries. It is a great starting point when
- * building robust, powerful web applications using Vue and Laravel.
- */
-import Vue from 'vue'
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
-import { BCard } from 'bootstrap-vue'
-import { BEmbed } from 'bootstrap-vue'
-import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
-import { BootstrapVueIcons } from 'bootstrap-vue'
-import 'bootstrap-vue/dist/bootstrap-vue-icons.min.css'
-import VueLoading from 'vue-loading-overlay'
-import 'vue-loading-overlay/dist/vue-loading.css'
-import Lightbox from 'vue-easy-lightbox'
+import './bootstrap';
+import { createApp } from 'vue';
 
-Vue.use(BootstrapVue)
-Vue.use(IconsPlugin)
-Vue.use(BootstrapVueIcons)
-Vue.use(Lightbox)
+// 1. 引入 BootstrapVueNext (替代 BootstrapVue)
+import BootstrapVueNext from 'bootstrap-vue-next';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap-vue-next/dist/bootstrap-vue-next.css';
 
-require('./bootstrap');
+// 2. 引入其他插件 (請確認已安裝 Vue 3 相容版本)
+import Loading from 'vue-loading-overlay';
+import 'vue-loading-overlay/dist/css/index.css'; // Vue 3 版的路徑通常有變
+import Lightbox from 'vue-easy-lightbox';
 
-window.Vue = require('vue');
+// 3. 引入你的 Vue 元件
+import LanguageSwitcher from './components/LanguageSwitcher.vue';
+import Home from './components/Home.vue';
+import Photo from './components/Photo.vue';
 
-Vue.component('b-card-img-lazy', BCard)
-Vue.component('b-embed', BEmbed)
-
-
-/**
- * The following block of code may be used to automatically register your
- * Vue components. It will recursively scan this directory for the Vue
- * components and automatically register them with their "basename".
- *
- * Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
- */
-
-// const files = require.context('./', true, /\.vue$/i)
-// files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
-
-Vue.component('language-switcher', require('./components/LanguageSwitcher.vue').default);
-Vue.component('home', require('./components/Home.vue').default);
-Vue.component('photo', require('./components/Photo.vue').default);
-
-
-const app = new Vue({
-    el: '#app',
-    data: {
-        isLoading: true,
-    },
-    components: {
-        loading: VueLoading,
+// 建立應用程式實例
+const app = createApp({
+    data() {
+        return {
+            isLoading: true,
+        };
     },
     mounted() {
         setTimeout(() => {
-            this.isLoading = false
-        }, 500)
+            this.isLoading = false;
+        }, 500);
     }
 });
-/**
- * Next, we will create a fresh Vue application instance and attach it to
- * the page. Then, you may begin adding components to this application
- * or customize the JavaScript scaffolding to fit your unique needs.
- */
+
+// 4. 使用插件
+app.use(BootstrapVueNext); // 包含原本的 BootstrapVue 與 Icons 效果
+app.use(Lightbox);
+
+// 5. 註冊全域元件
+app.component('loading', Loading);
+app.component('language-switcher', LanguageSwitcher);
+app.component('home', Home);
+app.component('photo', Photo);
+
+// 特別注意：BootstrapVueNext 內建已包含 BCard 等，
+// 如果你之前有特殊別名需求，可以像這樣註冊：
+// import { BCard } from 'bootstrap-vue-next';
+
+// 6. 掛載到 HTML
+app.mount('#app');

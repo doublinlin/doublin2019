@@ -1,4 +1,5 @@
 const mix = require('laravel-mix');
+const webpack = require('webpack');
 
 /*
  |--------------------------------------------------------------------------
@@ -12,4 +13,18 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-   .sass('resources/sass/app.scss', 'public/css');
+    .vue()
+    .sass('resources/sass/app.scss', 'public/css')
+    .options({
+        processCssUrls: false // 加上這一行，防止 Mix 找不到字體路徑
+    })
+    .webpackConfig({
+        plugins: [
+            new webpack.DefinePlugin({
+                '__VUE_OPTIONS_API__': true,
+                '__VUE_PROD_DEVTOOLS__': false,
+                '__VUE_PROD_HYDRATION_MISMATCH_DETAILS__': false,
+            }),
+        ],
+    });
+

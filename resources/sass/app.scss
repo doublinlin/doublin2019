@@ -7,7 +7,9 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 @import 'node_modules/bootstrap/scss/bootstrap';
-@import 'node_modules/bootstrap-vue/src/index.scss';
+@import 'bootstrap-vue-next/dist/bootstrap-vue-next.css';
+$bi-font-path: "./fonts"; // 告訴套件去哪找字體
+@import "~bootstrap-icons/font/bootstrap-icons.css";
 
 // Colors
 $black: #000;
@@ -37,11 +39,6 @@ $light_gray: #f7f7f7;
     right: 0;
     left: auto;
 }
-.text-title{
-    font-weight: 300;
-    font-size: 0.8rem;
-    color: $black;
-}
 
 /* 響應式圖片 */
 .img-responsive {
@@ -53,25 +50,31 @@ $light_gray: #f7f7f7;
     width: 600px;
     max-width: 100%;
     height: auto;
-    font-size: 11pt;
+    font-size: 1rem;
+    color: $black;
+    padding: 0.4em 0 0.2em 0;
+}
+.text-title{
+    font-weight: 300;
+    font-size: 0.9rem;
     color: $black;
     padding: 0.4em 0 0.2em 0;
 }
 .text-content{
     font-weight: 300;
-    font-size: 11pt;
+    font-size: 0.9rem;
     color: $gray;
     padding: 0.4em 0 0.2em 0;
 }
 .text-title-2{
     font-weight: 300;
-    font-size: 14pt;
+    font-size: 1rem;
     color: $black;
     padding: 0.4em 0 0.2em 0;
 }
 .text-content-2{
     font-weight: 300;
-    font-size: 12pt;
+    font-size: 0.9rem;
     color: $gray;
     padding: 0.4em 0 0.2em 0;
 }
@@ -92,4 +95,7 @@ $light_gray: #f7f7f7;
 .copyrights {
     padding: 1rem;
     text-align: center;
+}
+.ps-m2rem {
+    padding-left: 1rem !important;
 }
