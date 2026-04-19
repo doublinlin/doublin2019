@@ -43,9 +43,9 @@
     <div id="app">
         <!-- loading -->
         <div class="vld-parent">
-            <loading 
+            <loading
             color="#fc0303"
-            :active.sync="isLoading" 
+            v-model:active="isLoading"
             :is-full-page="true"
             >
             </loading>
@@ -53,33 +53,33 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <!-- Left Side Of Navbar -->
-                <ul class="navbar-nav mr-auto">
-                    <div class="text-center mr-3">
+                <ul class="navbar-nav me-auto">
+                    <div class="text-center me-3">
                         <b-button id="popover-target-1" variant="outline-dark">
                             {{ __('Contact') }}
                         </b-button>
                         <b-popover target="popover-target-1" triggers="hover" placement="top">
-                            <b-icon-phone variant="danger"></b-icon-phone>&nbsp;0933129409<br>
-                            <b-icon-envelope variant="danger"></b-icon-envelope>&nbsp;doublinlin@gmail.com
+                            <i class="bi bi-telephone text-danger"></i>&nbsp;0933129409<br>
+                            <i class="bi bi-envelope text-danger"></i>&nbsp;doublinlin@gmail.com
                         </b-popover>
                     </div>
                 </ul>
                 <a class="navbar-brand" href="{{ url('/', app()->getLocale()) }}">
                         {{ __('Doublin') }}
                 </a>
-                
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Right Side Of Navbar -->
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('ItsMe', app()->getLocale()) }}">{{ __('ItsMe') }}</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             {{ __('Works')}}
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -87,7 +87,7 @@
                                 <a class="dropdown-item" href="{{ route('works.Design', app()->getLocale()) }}">{{ __('Design')}}</a>
                                 <a class="dropdown-item" href="{{ route('works.UIWebDesign', app()->getLocale()) }}">{{ __('UI_Web_Design')}}</a>
                                 <a class="dropdown-item" href="{{ route('works.Photo', app()->getLocale()) }}">{{ __('Photo')}}</a>
-                                <a class="dropdown-item" href="{{ route('works.Video', app()->getLocale()) }}">{{ __('Video')}}</a>
+                                <!-- <a class="dropdown-item" href="{{ route('works.Video', app()->getLocale()) }}">{{ __('Video')}}</a> -->
                             </div>
                         </li>
                         <li class="nav-item">

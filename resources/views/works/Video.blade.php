@@ -9,14 +9,13 @@
 
                     <b-card>
                         <b-card-title>{{ __('Video_Title_1') }}</b-card-title>
-                        <b-embed
-                            class="pb-3"
-                            type="iframe"
-                            aspect="16by9"
-                            src="https://www.youtube.com/embed/videoseries?list=PLuqlbhaqZjOkTuPUCwre1qr65R0nk3NAB"
-                            allowfullscreen
-                        >
-                        </b-embed>
+                        <div class="ratio ratio-16x9 mb-3">
+                            <iframe
+                                src="https://www.youtube.com/embed/videoseries?list=PLuqlbhaqZjOkTuPUCwre1qr65R0nk3NAB"
+                                allowfullscreen
+                            >
+                            </iframe>
+                        </div>
                         <b-card-text>{{ __('Video_Content_1')}}</b-card-text>
                     </b-card>
 

@@ -19,7 +19,7 @@
                       :index="index"
                       @hide="handleHide"
                   ></vue-easy-lightbox>
-        </div> 
+        </div>
   </div>
 
 </template>
@@ -37,12 +37,12 @@ export default {
       visible: false,
       index: 0,   // default: 0
       imgs : [
-         'http://doublinlin.com/doublin/doublin(2017-2019)/img/photoImg/photo-7.jpg',
-         'http://doublinlin.com/doublin/doublin(2017-2019)/img/photoImg/photo-6.jpg',
-         'http://doublinlin.com/doublin/doublin(2017-2019)/img/photoImg/photo-1.jpg',
-         'http://doublinlin.com/doublin/doublin(2017-2019)/img/photoImg/photo-3.jpg',
-         'http://doublinlin.com/doublin/doublin(2017-2019)/img/photoImg/photo-4.jpg',
-         'http://doublinlin.com/doublin/doublin(2017-2019)/img/photoImg/photo-5.jpg',
+         'http://portfolio.doublinlin.com/public/images/photoImg/photo-7.jpg',
+         'http://portfolio.doublinlin.com/public/images/photoImg/photo-6.jpg',
+         'http://portfolio.doublinlin.com/public/images/photoImg/photo-1.jpg',
+         'http://portfolio.doublinlin.com/public/images/photoImg/photo-3.jpg',
+         'http://portfolio.doublinlin.com/public/images/photoImg/photo-4.jpg',
+         'http://portfolio.doublinlin.com/public/images/photoImg/photo-5.jpg',
       ],
     }
   },
