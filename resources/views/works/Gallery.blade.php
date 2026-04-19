@@ -172,7 +172,6 @@
                                     <a class="font-des-6" href="https://store.line.me/stickershop/product/1221453/zh-Hant" target="_blank"> Line Store </a>{{ __('Gallery_Reason_Content_4-5')}}</p>
                                 </div>
                             </b-container>
-
                         </b-modal>
 
                 </b-card-group>

@@ -515,6 +515,45 @@
                             </b-container>
                         </b-modal>
 
+                    <!-- Hsin Tai -->
+                    <b-card
+                        img-src="{{ url('images/design/2024 Mid-Autumn Festival.jpg') }}"
+                        img-alt="Image"
+                        img-top
+                        class="mt-3"
+                        loading="lazy"
+                    >
+                        <b-card-title>{{ __('Design_Title_14')}}</b-card-title>
+                        <b-card-text>{{ __('Design_Content_14')}}</b-card-text>
+
+                        <!-- v-b-modal.都小寫 -->
+                        <b-button
+                        v-b-modal.design_14
+                        variant="outline-dark"
+                        size="sm"
+                        >more
+                        </b-button>
+                    </b-card>
+                        <b-modal
+                        id="design_14"
+                        title="{{ __('Design_Title_14')}}"
+                        size="lg"
+                        scrollable
+                        hide-footer
+                        >
+
+                            <b-container>
+                                <div class="mb-5">
+                                    <h5 class="text-title-2">{{ __('Design_Reason_Title_1')}}</h5>
+                                    <p class="text-content-2">
+                                    {{ __('Design_Reason_Content_14-1')}}</p>
+                                    <img src="{{ url('images/design/Apply for natural gas.jpg') }}" class="emSpace-2" width="100%" />
+                                    <img src="{{ url('images/design/Service scope.jpg') }}" class="mt-m1d5rem" width="100%" />
+                                    <img src="{{ url('images/design/SMS bill.jpg') }}" class="mt-m1d5rem" width="100%" />
+                                    <img src="{{ url('images/design/Microcomputer Gas Meter.jpg') }}" class="mt-m1d5rem" width="100%" />
+                                </div>
+                            </b-container>
+                        </b-modal>
                 </b-card-group>
             </div>
         </div>

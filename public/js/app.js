@@ -27434,23 +27434,27 @@ function _arrayWithoutHoles(r) { if (Array.isArray(r)) return _arrayLikeToArray(
 function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
 
 var _hoisted_1 = {
-  "class": "relative language"
+  "class": "position-relative language"
 };
 var _hoisted_2 = ["src"];
 var _hoisted_3 = {
-  "class": "ms-2"
+  "class": "ms-2 text-uppercase"
 };
 var _hoisted_4 = {
   key: 0,
   ref: "dropdown",
-  "class": "absolute normal-case z-30 font-normal xs:left-0 lg:right-0 bg-white shadow overflow-hidden rounded w-48 border mt-2 py-1 lg:z-20"
+  "class": "position-absolute bg-white border rounded mt-2 py-1 list-unstyled",
+  style: {
+    "width": "150px",
+    "right": "0"
+  }
 };
 var _hoisted_5 = ["href"];
 var _hoisted_6 = ["href"];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
-    href: "#",
-    "class": "flex items-center",
+    type: "button",
+    "class": "d-flex align-items-center",
     onClick: _cache[0] || (_cache[0] = function () {
       return $options.toggleVisibility && $options.toggleVisibility.apply($options, arguments);
     }),
@@ -27468,24 +27472,23 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: "http://doublinlin.com/doublin/doublin/public/images/lang/flag_".concat($props.locale, ".png"),
     alt: "flag",
-    "class": "w-8 h-8"
-  }, null, 8 /* PROPS */, _hoisted_2), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.locale.toUpperCase()), 1 /* TEXT */), _cache[15] || (_cache[15] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
-    fill: "currentColor",
-    xmlns: "http://www.w3.org/2000/svg",
-    viewBox: "0 0 24 24",
-    width: "24",
-    height: "24"
-  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
-    "class": "heroicon-ui",
-    d: "M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"
-  })], -1 /* CACHED */))], 32 /* NEED_HYDRATION */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(vue__WEBPACK_IMPORTED_MODULE_0__.Transition, {
+    style: {
+      "width": "24px",
+      "height": "24px"
+    }
+  }, null, 8 /* PROPS */, _hoisted_2), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($props.locale), 1 /* TEXT */), _cache[15] || (_cache[15] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "bi bi-caret-down-fill ms-1",
+    style: {
+      "font-size": "0.7rem"
+    }
+  }, null, -1 /* CACHED */))], 32 /* NEED_HYDRATION */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(vue__WEBPACK_IMPORTED_MODULE_0__.Transition, {
     name: "dropdown-fade"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [$data.isVisible ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("ul", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
         href: _ctx.linkEn,
         ref: "account",
-        "class": "flex items-center px-3 py-3 hover:bg-gray-200 text-decoration-none",
+        "class": "d-flex align-items-center px-3 py-2 hover-gray text-decoration-none text-dark",
         onKeydown: [_cache[6] || (_cache[6] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withKeys)((0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)(function () {}, ["exact", "prevent"]), ["up"])), _cache[7] || (_cache[7] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withKeys)((0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)(function ($event) {
           return $options.focusNext(false);
         }, ["exact"]), ["tab"])), _cache[8] || (_cache[8] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withKeys)((0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)(function ($event) {
@@ -27496,12 +27499,15 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       }, _toConsumableArray(_cache[16] || (_cache[16] = [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
         src: "http://doublinlin.com/doublin/doublin/public/images/lang/flag_en.png",
         alt: "english flag",
-        "class": "h-8 w-8"
+        style: {
+          "width": "20px",
+          "height": "20px"
+        }
       }, null, -1 /* CACHED */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
         "class": "ms-2"
-      }, "English", -1 /* CACHED */)])), 40 /* PROPS, NEED_HYDRATION */, _hoisted_5)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <li>\n          <a\n            href=\"#\"\n            class=\"flex items-center px-3 py-3 hover:bg-gray-200\"\n            @keydown.tab.exact=\"focusNext(false)\"\n            @keydown.shift.tab=\"focusPrevious(false)\"\n            @keydown.up.exact.prevent=\"focusPrevious(true)\"\n            @keydown.down.exact.prevent=\"focusNext(true)\"\n            @keydown.esc.exact=\"hideDropdown\"\n          >\n            <svg fill=\"currentColor\" class=\"text-gray-600\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"24\" height=\"24\"><path class=\"heroicon-ui\" d=\"M12 22a10 10 0 1 1 0-20 10 10 0 0 1 0 20zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm1-11v2h1a3 3 0 0 1 0 6h-1v1a1 1 0 0 1-2 0v-1H8a1 1 0 0 1 0-2h3v-2h-1a3 3 0 0 1 0-6h1V6a1 1 0 0 1 2 0v1h3a1 1 0 0 1 0 2h-3zm-2 0h-1a1 1 0 1 0 0 2h1V9zm2 6h1a1 1 0 0 0 0-2h-1v2z\"></path></svg>\n            <span class=\"ml-2\">Billing</span>\n          </a>\n        </li> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+      }, "English", -1 /* CACHED */)])), 40 /* PROPS, NEED_HYDRATION */, _hoisted_5)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
         href: _ctx.linkZh,
-        "class": "flex items-center px-3 py-3 hover:bg-gray-200 text-decoration-none",
+        "class": "d-flex align-items-center px-3 py-2 hover-gray text-decoration-none text-dark",
         onKeydown: [_cache[10] || (_cache[10] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withKeys)((0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)(function ($event) {
           return $options.focusPrevious(false);
         }, ["shift"]), ["tab"])), _cache[11] || (_cache[11] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withKeys)((0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)(function ($event) {
@@ -27513,8 +27519,11 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         }, ["exact"]), ["esc"]))]
       }, _toConsumableArray(_cache[17] || (_cache[17] = [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
         src: "http://doublinlin.com/doublin/doublin/public/images/lang/flag_zh.png",
-        alt: "english flag",
-        "class": "h-8 w-8"
+        alt: "chinese flag",
+        style: {
+          "width": "20px",
+          "height": "20px"
+        }
       }, null, -1 /* CACHED */), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
         "class": "ms-2"
       }, "中文", -1 /* CACHED */)])), 40 /* PROPS, NEED_HYDRATION */, _hoisted_6)])], 512 /* NEED_PATCH */)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)];
@@ -44823,7 +44832,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\nbutton[data-v-621aa444] {\n      padding: 0;\n      border: none;\n      font: inherit;\n      color: inherit;\n      background-color: transparent;\n      cursor: pointer;\n}\n.flex[data-v-621aa444] {\n        display: flex;\n        align-items: center;\n}\nimg[data-v-621aa444] {\n        width: 1rem;\n        height: 1rem;\n}\n@media (max-width:768px){\nul[data-v-621aa444] {\n          list-style-type: none;\n          padding-left: 0;\n          position: absolute;\n          z-index: 30;\n          left: 0;\n          width: 150px;\n}\n}\nul[data-v-621aa444] {\n        list-style-type: none;\n        padding-left: 0;\n        position: absolute;\n        z-index: 30;\n        right: 0;\n}\n.relative[data-v-621aa444] {\n        position: relative;\n}\n.language[data-v-621aa444]{\n        margin: 10px 0 0 10px;\n}\n.dropdown-fade-enter-active[data-v-621aa444], .dropdown-fade-leave-active[data-v-621aa444] {\n        transition: all .1s ease-in-out;\n}\n.dropdown-fade-enter[data-v-621aa444], .dropdown-fade-leave-to[data-v-621aa444] {\n        opacity: 0;\n        transform: translateY(-12px);\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\nbutton[data-v-621aa444] {\n      padding: 0;\n      border: none;\n      font: inherit;\n      color: inherit;\n      background-color: transparent;\n      cursor: pointer;\n}\n.flex[data-v-621aa444] {\n        display: flex;\n        align-items: center;\n}\nimg[data-v-621aa444] {\n        width: 1rem;\n        height: 1rem;\n}\n@media (max-width:768px){\nul[data-v-621aa444] {\n          list-style-type: none;\n          padding-left: 0;\n          position: absolute;\n          z-index: 30;\n          left: 0;\n          width: 150px;\n}\n}\nul[data-v-621aa444] {\n        list-style-type: none;\n        padding-left: 0;\n        position: absolute;\n        z-index: 30;\n}\n.hover-gray[data-v-621aa444]:hover {\n        background-color: #f8f9fa;\n        color: #000;\n}\n    /* 確保下拉選單能正確浮動在上方 */\n.position-absolute[data-v-621aa444] {\n        top: 100%;\n        left: 0;\n}\n    /* 修正 Vue 3 的 Transition 類別名稱 (Vue 3 使用 -enter-from) */\n.dropdown-fade-enter-from[data-v-621aa444], .dropdown-fade-leave-to[data-v-621aa444] {\n        opacity: 0;\n        transform: translateY(-12px);\n}\n.language[data-v-621aa444]{\n        color: var(--bs-nav-link-color);\n        margin: 8px 0 0 10px;\n}\n.dropdown-fade-enter-active[data-v-621aa444], .dropdown-fade-leave-active[data-v-621aa444] {\n        transition: all .1s ease-in-out;\n}\n.dropdown-fade-enter[data-v-621aa444], .dropdown-fade-leave-to[data-v-621aa444] {\n        opacity: 0;\n        transform: translateY(-12px);\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

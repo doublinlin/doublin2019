@@ -867,6 +867,7 @@
                                     <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
                                     {{ __('Web_UI_Reason_Content_19-1')}}<br>
+                                    {{ __('Web_UI_Reason_Content_19-2')}}
                                     </p>
                                     <b-button
                                         href="http://doublinlin.com/doublin/doublin(2016-2017)/protfolio.php"
@@ -916,6 +917,7 @@
                                     <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
                                     {{ __('Web_UI_Reason_Content_20-1')}}<br>
+                                    {{ __('Web_UI_Reason_Content_20-2')}}
                                     </p>
                                     <b-button
                                         href="http://doublinlin.com/doublin/doublin(2017-2019)/index.html"
@@ -965,6 +967,7 @@
                                     <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
                                     {{ __('Web_UI_Reason_Content_21-1')}}<br>
+                                    {{ __('Web_UI_Reason_Content_21-2')}}
                                     </p>
                                     <b-button
                                         href="http://doublinlin.com/doublin/BDIOT/index.html"
@@ -1016,6 +1019,7 @@
                                     <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
                                     {{ __('Web_UI_Reason_Content_22-1')}}<br>
+                                    {{ __('Web_UI_Reason_Content_22-2')}}
                                     </p>
                                     <b-button
                                         href="http://doublinlin.com/doublin/Topology/index.html"
@@ -1064,9 +1068,10 @@
                                     <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
                                     {{ __('Web_UI_Reason_Content_23-1')}}<br>
+                                    {{ __('Web_UI_Reason_Content_23-2')}}
                                     </p>
                                     <b-button
-                                        href="https://www.pgrental.com.tw/"
+                                        href="https://web.archive.org/web/20220417142107/https://www.pgrental.com.tw/"
                                         class="font-des-6"
                                         target="_blank"
                                         variant="outline-dark"
@@ -1111,6 +1116,7 @@
                                     <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
                                     {{ __('Web_UI_Reason_Content_24-1')}}<br>
+                                    {{ __('Web_UI_Reason_Content_24-2')}}
                                     </p>
                                     <b-button
                                         href="https://www.dozzycozy.com/zh-tw"
@@ -1161,6 +1167,7 @@
                                     <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
                                     {{ __('Web_UI_Reason_Content_25-1')}}<br>
+                                    {{ __('Web_UI_Reason_Content_25-2')}}
                                     </p>
                                     <b-button
                                         href="https://www.codepro123.com/"
@@ -1178,7 +1185,7 @@
                             </b-container>
                         </b-modal>
 
-                    <b-card
+                    <!-- <b-card
                         img-src="{{ url('images/UIWebDesign/caSheenOfficial-web.jpg') }}"
                         img-alt="Image"
                         img-top
@@ -1188,7 +1195,7 @@
                         <b-card-title>{{ __('Web_UI_Title_26')}}</b-card-title>
                         <b-card-text>{{ __('Web_UI_Content_26')}}</b-card-text>
 
-                        <!-- v-b-modal.都小寫 -->
+
                         <b-button
                         v-b-modal.uiwebdesign_26
                         variant="outline-dark"
@@ -1226,7 +1233,7 @@
                             </b-container>
                         </b-modal>
 
-                    <!-- <b-card
+                    <b-card
                     img-src="{{ url('images/UIWebDesign/caSheenOrder-web.jpg') }}"
                     img-alt="Image"
                     img-top
@@ -1288,7 +1295,7 @@
                         variant="outline-dark"
                         size="sm"
                         >more
-                        </b-button>
+                    </b-button>
                     </b-card>
                         <b-modal
                         id="uiwebdesign_28"
@@ -1303,6 +1310,7 @@
                                     <h5 class="text-title-2">{{ __('Web_UI_Reason_Title_1')}}</h5>
                                     <p class="text-content-2">
                                     {{ __('Web_UI_Reason_Content_28-1')}}<br>
+                                    {{ __('Web_UI_Reason_Content_28-2')}}
                                     </p>
                                     <b-button
                                         href="http://icon.doublinlin.com/HtmlEntities"
@@ -1319,6 +1327,19 @@
                                 </div>
                             </b-container>
                         </b-modal>
+
+                    <!-- 現在的作品集網站 -->
+                    <b-card
+                        img-src="{{ url('images/UIWebDesign/Doublin(2019-2026)-web.png') }}"
+                        img-alt="Image"
+                        img-top
+                        class="mt-3"
+                        loading="lazy"
+                    >
+                        <b-card-title>{{ __('Web_UI_Title_29')}}</b-card-title>
+                        <b-card-text>{{ __('Web_UI_Content_29')}}</b-card-text>
+                    </b-card>
+
                 </b-card-group>
 
             </div>

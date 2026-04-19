@@ -1,8 +1,8 @@
 <template>
-  <div class="relative language">
+  <div class="position-relative language">
     <button
-      href="#"
-      class="flex items-center"
+      type="button"
+      class="d-flex align-items-center"
       @click="toggleVisibility"
       @keydown.space.exact.prevent="toggleVisibility"
       @keydown.esc.exact="hideDropdown"
@@ -10,51 +10,40 @@
       @keydown.up.exact.prevent="startArrowKeys"
       @keydown.down.exact.prevent="startArrowKeys"
     >
-      <img :src="`http://doublinlin.com/doublin/doublin/public/images/lang/flag_${locale}.png`" alt="flag" class="w-8 h-8">
-      <span class="ms-2">{{ locale.toUpperCase() }}</span>
-      <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z"></path></svg>
+      <img :src="`http://doublinlin.com/doublin/doublin/public/images/lang/flag_${locale}.png`" alt="flag" style="width: 24px; height: 24px;">
+      <span class="ms-2 text-uppercase">{{ locale }}</span>
+      <i class="bi bi-caret-down-fill ms-1" style="font-size: 0.7rem;"></i>
     </button>
+
     <transition name="dropdown-fade">
-      <ul v-if="isVisible" ref="dropdown" class="absolute normal-case z-30 font-normal xs:left-0 lg:right-0 bg-white shadow overflow-hidden rounded w-48 border mt-2 py-1 lg:z-20">
+      <ul v-if="isVisible" ref="dropdown"
+          class="position-absolute bg-white border rounded mt-2 py-1 list-unstyled"
+          style="width: 150px; right: 0;">
         <li>
           <a
             :href="linkEn"
             ref="account"
-            class="flex items-center px-3 py-3 hover:bg-gray-200 text-decoration-none"
+            class="d-flex align-items-center px-3 py-2 hover-gray text-decoration-none text-dark"
             @keydown.up.exact.prevent=""
             @keydown.tab.exact="focusNext(false)"
             @keydown.down.exact.prevent="focusNext(true)"
             @keydown.esc.exact="hideDropdown"
           >
-            <img src="http://doublinlin.com/doublin/doublin/public/images/lang/flag_en.png" alt="english flag" class="h-8 w-8">
+            <img src="http://doublinlin.com/doublin/doublin/public/images/lang/flag_en.png" alt="english flag" style="width: 20px; height: 20px;">
             <span class="ms-2">English</span>
           </a>
         </li>
-        <!-- <li>
-          <a
-            href="#"
-            class="flex items-center px-3 py-3 hover:bg-gray-200"
-            @keydown.tab.exact="focusNext(false)"
-            @keydown.shift.tab="focusPrevious(false)"
-            @keydown.up.exact.prevent="focusPrevious(true)"
-            @keydown.down.exact.prevent="focusNext(true)"
-            @keydown.esc.exact="hideDropdown"
-          >
-            <svg fill="currentColor" class="text-gray-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M12 22a10 10 0 1 1 0-20 10 10 0 0 1 0 20zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm1-11v2h1a3 3 0 0 1 0 6h-1v1a1 1 0 0 1-2 0v-1H8a1 1 0 0 1 0-2h3v-2h-1a3 3 0 0 1 0-6h1V6a1 1 0 0 1 2 0v1h3a1 1 0 0 1 0 2h-3zm-2 0h-1a1 1 0 1 0 0 2h1V9zm2 6h1a1 1 0 0 0 0-2h-1v2z"></path></svg>
-            <span class="ml-2">Billing</span>
-          </a>
-        </li> -->
         <li>
           <a
             :href="linkZh"
-            class="flex items-center px-3 py-3 hover:bg-gray-200 text-decoration-none"
+            class="d-flex align-items-center px-3 py-2 hover-gray text-decoration-none text-dark"
             @keydown.shift.tab="focusPrevious(false)"
             @keydown.up.exact.prevent="focusPrevious(true)"
             @keydown.down.exact.prevent=""
             @keydown.tab.exact="hideDropdown"
             @keydown.esc.exact="hideDropdown"
           >
-            <img src="http://doublinlin.com/doublin/doublin/public/images/lang/flag_zh.png" alt="english flag" class="h-8 w-8">
+            <img src="http://doublinlin.com/doublin/doublin/public/images/lang/flag_zh.png" alt="chinese flag" style="width: 20px; height: 20px;">
             <span class="ms-2">中文</span>
           </a>
         </li>
@@ -144,13 +133,25 @@ export default {
         padding-left: 0;
         position: absolute;
         z-index: 30;
-        right: 0;
+
     }
-    .relative {
-        position: relative;
+    .hover-gray:hover {
+        background-color: #f8f9fa;
+        color: #000;
+    }
+    /* 確保下拉選單能正確浮動在上方 */
+    .position-absolute {
+        top: 100%;
+        left: 0;
+    }
+    /* 修正 Vue 3 的 Transition 類別名稱 (Vue 3 使用 -enter-from) */
+    .dropdown-fade-enter-from, .dropdown-fade-leave-to {
+        opacity: 0;
+        transform: translateY(-12px);
     }
     .language{
-        margin: 10px 0 0 10px;
+        color: var(--bs-nav-link-color);
+        margin: 8px 0 0 10px;
 
     }
     .dropdown-fade-enter-active, .dropdown-fade-leave-active {
