@@ -87,7 +87,7 @@
                                 <a class="dropdown-item" href="{{ route('works.Design', app()->getLocale()) }}">{{ __('Design')}}</a>
                                 <a class="dropdown-item" href="{{ route('works.UIWebDesign', app()->getLocale()) }}">{{ __('UI_Web_Design')}}</a>
                                 <a class="dropdown-item" href="{{ route('works.Photo', app()->getLocale()) }}">{{ __('Photo')}}</a>
-                                <a class="dropdown-item" href="{{ route('works.Video', app()->getLocale()) }}">{{ __('Video')}}</a>
+                                <!-- <a class="dropdown-item" href="{{ route('works.Video', app()->getLocale()) }}">{{ __('Video')}}</a> -->
                             </div>
                         </li>
                         <li class="nav-item">
