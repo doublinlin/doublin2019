@@ -8,7 +8,7 @@
             <div class="page-content">
                 <b-card-group deck>
                     <b-card
-                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/galleryImg/Doublin_bag_1_850.jpg"
+                        img-src="{{ url('images/gallery/Doublin_bag_1_850.jpg') }}"
                         img-alt="Image"
                         img-top
                         class="mt-3"
@@ -42,14 +42,14 @@
                                     </p>
                                 </div>
                                 <div class="mb-5">
-                                    <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/galleryImg/Doublin_bag_1_850.jpg" fluid alt="Fluid image"></b-img>
+                                    <b-img src="{{ url('images/gallery/Doublin_bag_1_850.jpg') }}" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
 
                         </b-modal>
 
                     <b-card
-                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/galleryImg/Doublin_bag_2_850.jpg"
+                        img-src="{{ url('images/gallery/Doublin_bag_2_850.jpg') }}"
                         img-alt="Image"
                         img-top
                         tag="article"
@@ -84,14 +84,14 @@
                                     </p>
                                 </div>
                                 <div class="mb-5">
-                                    <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/galleryImg/Doublin_bag_2_850.jpg" fluid alt="Fluid image"></b-img>
+                                    <b-img src="{{ url('images/gallery/Doublin_bag_2_850.jpg') }}" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
 
                         </b-modal>
 
                     <b-card
-                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/galleryImg/Doublin_bag_3_850.jpg"
+                        img-src="{{ url('images/gallery/Doublin_bag_3_850.jpg') }}"
                         img-alt="Image"
                         img-top
                         class="mt-3"
@@ -125,7 +125,7 @@
                                     </p>
                                 </div>
                                 <div class="mb-5">
-                                    <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/galleryImg/Doublin_bag_3_850.jpg" fluid alt="Fluid image"></b-img>
+                                    <b-img src="{{ url('images/gallery/Doublin_bag_3_850.jpg') }}" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
                         </b-modal>
@@ -134,7 +134,7 @@
 
                 <b-card-group deck>
                     <b-card
-                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/galleryImg/Line_name.jpg"
+                        img-src="{{ url('images/gallery/Line_name.jpg') }}"
                         img-alt="Image"
                         img-top
                         class="mt-3"
@@ -166,7 +166,7 @@
                                     <p class="text-content-2">
                                     {{ __('Gallery_Reason_Content_4-1')}}<br>
                                     {{ __('Gallery_Reason_Content_4-2')}}</br>
-                                    <img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/galleryImg/Line_mobile.jpg" class="emSpace-2" alt="鼻屎星人" width="100%" />
+                                    <img src="{{ url('images/gallery/Line_mobile.jpg') }}" class="emSpace-2" alt="鼻屎星人" width="100%" />
                                     {{ __('Gallery_Reason_Content_4-3')}}</br>
                                     {{ __('Gallery_Reason_Content_4-4')}}
                                     <a class="font-des-6" href="https://store.line.me/stickershop/product/1221453/zh-Hant" target="_blank"> Line Store </a>{{ __('Gallery_Reason_Content_4-5')}}</p>

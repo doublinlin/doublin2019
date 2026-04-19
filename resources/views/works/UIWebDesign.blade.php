@@ -8,7 +8,7 @@
             <div class="page-content">
                 <b-card-group deck>
                     <b-card
-                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day1.jpg"
+                        img-src="{{ url('images/UIWebDesign/Day1.jpg') }}"
                         img-alt="Image"
                         img-top
                         class="mt-3"
@@ -42,14 +42,14 @@
                                     </p>
                                 </div>
                                 <div class="mb-5">
-                                    <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day1.jpg" fluid alt="Fluid image"></b-img>
+                                    <b-img src="{{ url('images/UIWebDesign/Day1.jpg') }}" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
 
                         </b-modal>
 
                     <b-card
-                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day2.jpg"
+                        img-src="{{ url('images/UIWebDesign/Day2.jpg') }}"
                         img-alt="Image"
                         img-top
                         tag="article"
@@ -85,14 +85,14 @@
                                     </p>
                                 </div>
                                 <div class="mb-5">
-                                    <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day2.jpg" fluid alt="Fluid image"></b-img>
+                                    <b-img src="{{ url('images/UIWebDesign/Day2.jpg') }}" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
 
                         </b-modal>
 
                     <b-card
-                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day3.jpg"
+                        img-src="{{ url('images/UIWebDesign/Day3.jpg') }}"
                         img-alt="Image"
                         img-top
                         class="mt-3"
@@ -127,7 +127,7 @@
                                     </p>
                                 </div>
                                 <div class="mb-5">
-                                    <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day3.jpg" fluid alt="Fluid image"></b-img>
+                                    <b-img src="{{ url('images/UIWebDesign/Day3.jpg') }}" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
 
@@ -136,7 +136,7 @@
 
                 <b-card-group deck>
                     <b-card
-                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day4.jpg"
+                        img-src="{{ url('images/UIWebDesign/Day4.jpg') }}"
                         img-alt="Image"
                         img-top
                         class="mt-3"
@@ -171,13 +171,13 @@
                                     </p>
                                 </div>
                                 <div class="mb-5">
-                                    <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day4.gif" fluid alt="Fluid image"></b-img>
+                                    <b-img src="{{ url('images/UIWebDesign/Day4.gif') }}" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
                         </b-modal>
 
                     <b-card
-                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day5.jpg"
+                        img-src="{{ url('images/UIWebDesign/Day5.jpg') }}"
                         img-alt="Image"
                         img-top
                         class="mt-3"
@@ -212,14 +212,14 @@
                                     </p>
                                 </div>
                                 <div class="mb-5">
-                                    <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day5.jpg" fluid alt="Fluid image"></b-img>
+                                    <b-img src="{{ url('images/UIWebDesign/Day5.jpg') }}" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
 
                         </b-modal>
 
                     <b-card
-                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day6.jpg"
+                        img-src="{{ url('images/UIWebDesign/Day6.jpg') }}"
                         img-alt="Image"
                         img-top
                         class="mt-3"
@@ -254,7 +254,7 @@
                                     </p>
                                 </div>
                                 <div class="mb-5">
-                                    <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day6.jpg" fluid alt="Fluid image"></b-img>
+                                    <b-img src="{{ url('images/UIWebDesign/Day6.jpg') }}" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
 
@@ -264,7 +264,7 @@
 
                 <b-card-group deck>
                     <b-card
-                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day7.jpg"
+                        img-src="{{ url('images/UIWebDesign/Day7.jpg') }}"
                         img-alt="Image"
                         img-top
                         class="mt-3"
@@ -298,14 +298,14 @@
                                     </p>
                                 </div>
                                 <div class="mb-5">
-                                    <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day7.jpg" fluid alt="Fluid image"></b-img>
+                                    <b-img src="{{ url('images/UIWebDesign/Day7.jpg') }}" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
 
                         </b-modal>
 
                     <b-card
-                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day8.jpg"
+                        img-src="{{ url('images/UIWebDesign/Day8.jpg') }}"
                         img-alt="Image"
                         img-top
                         class="mt-3"
@@ -340,14 +340,14 @@
                                     </p>
                                 </div>
                                 <div class="mb-5">
-                                    <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day8.jpg" fluid alt="Fluid image"></b-img>
+                                    <b-img src="{{ url('images/UIWebDesign/Day8.jpg') }}" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
 
                         </b-modal>
 
                     <b-card
-                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day9.jpg"
+                        img-src="{{ url('images/UIWebDesign/Day9.jpg') }}"
                         img-alt="Image"
                         img-top
                         class="mt-3"
@@ -382,7 +382,7 @@
                                     </p>
                                 </div>
                                 <div class="mb-5">
-                                    <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day9.gif" fluid alt="Fluid image"></b-img>
+                                    <b-img src="{{ url('images/UIWebDesign/Day9.gif') }}" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
 
@@ -392,7 +392,7 @@
 
                 <b-card-group deck>
                     <b-card
-                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day10.jpg"
+                        img-src="{{ url('images/UIWebDesign/Day10.jpg') }}"
                         img-alt="Image"
                         img-top
                         class="mt-3"
@@ -427,14 +427,14 @@
                                     </p>
                                 </div>
                                 <div class="mb-5">
-                                    <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day10.gif" fluid alt="Fluid image"></b-img>
+                                    <b-img src="{{ url('images/UIWebDesign/Day10.gif') }}" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
 
                         </b-modal>
 
                     <b-card
-                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day11.jpg"
+                        img-src="{{ url('images/UIWebDesign/Day11.jpg') }}"
                         img-alt="Image"
                         img-top
                         class="mt-3"
@@ -488,7 +488,7 @@
                         </b-modal>
 
                     <b-card
-                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day12.jpg"
+                        img-src="{{ url('images/UIWebDesign/Day12.jpg') }}"
                         img-alt="Image"
                         img-top
                         class="mt-3"
@@ -523,7 +523,7 @@
                                     </p>
                                 </div>
                                 <div class="mb-5">
-                                    <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day12.jpg" fluid alt="Fluid image"></b-img>
+                                    <b-img src="{{ url('images/UIWebDesign/Day12.jpg') }}" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
 
@@ -533,7 +533,7 @@
 
                 <b-card-group deck>
                     <b-card
-                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day13.jpg"
+                        img-src="{{ url('images/UIWebDesign/Day13.jpg') }}"
                         img-alt="Image"
                         img-top
                         class="mt-3"
@@ -568,14 +568,14 @@
                                     </p>
                                 </div>
                                 <div class="mb-5">
-                                    <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day13.jpg" fluid alt="Fluid image"></b-img>
+                                    <b-img src="{{ url('images/UIWebDesign/Day13.jpg') }}" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
 
                         </b-modal>
 
                     <b-card
-                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day14.jpg"
+                        img-src="{{ url('images/UIWebDesign/Day14.jpg') }}"
                         img-alt="Image"
                         img-top
                         class="mt-3"
@@ -629,7 +629,7 @@
                         </b-modal>
 
                     <b-card
-                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day15.jpg"
+                        img-src="{{ url('images/UIWebDesign/Day15.jpg') }}"
                         img-alt="Image"
                         img-top
                         class="mt-3"
@@ -686,7 +686,7 @@
 
                 <b-card-group deck>
                     <b-card
-                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day16.jpg"
+                        img-src="{{ url('images/UIWebDesign/Day16.jpg') }}"
                         img-alt="Image"
                         img-top
                         class="mt-3"
@@ -739,7 +739,7 @@
                         </b-modal>
 
                     <b-card
-                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Day17.jpg"
+                        img-src="{{ url('images/UIWebDesign/Day17.jpg') }}"
                         img-alt="Image"
                         img-top
                         class="mt-3"
@@ -793,7 +793,7 @@
                         </b-modal>
 
                     <b-card
-                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/swap.jpg"
+                        img-src="{{ url('images/UIWebDesign/swap.jpg') }}"
                         img-alt="Image"
                         img-top
                         class="mt-3"
@@ -827,7 +827,7 @@
                                     </p>
                                 </div>
                                 <div class="mb-5">
-                                    <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/swap.jpg" fluid alt="Fluid image"></b-img>
+                                    <b-img src="{{ url('images/UIWebDesign/swap.jpg') }}" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
 
@@ -837,7 +837,7 @@
 
                 <b-card-group deck>
                     <b-card
-                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Doublin(2016-2017)-web.jpg"
+                        img-src="{{ url('images/UIWebDesign/Doublin(2016-2017)-web.jpg') }}"
                         img-alt="Image"
                         img-top
                         class="mt-3"
@@ -870,7 +870,7 @@
                                     {{ __('Web_UI_Reason_Content_19-2')}}
                                     </p>
                                     <b-button
-                                        href="http://doublinlin.com/doublin/doublin(2016-2017)/protfolio.php"
+                                        href="http://portfolio.doublinlin.com/public/doublin(2016-2017)/protfolio.php"
                                         class="font-des-6"
                                         target="_blank"
                                         variant="outline-dark"
@@ -880,14 +880,14 @@
                                     </b-button>
                                 </div>
                                 <div class="mb-5">
-                                    <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Doublin(2016-2017)-web.jpg" fluid alt="Fluid image"></b-img>
+                                    <b-img src="{{ url('images/UIWebDesign/Doublin(2016-2017)-web.jpg') }}" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
 
                         </b-modal>
 
                     <b-card
-                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Doublin(2017-2019)-web-01.jpg"
+                        img-src="{{ url('images/UIWebDesign/Doublin(2017-2019)-web-01.jpg') }}"
                         img-alt="Image"
                         img-top
                         class="mt-3"
@@ -920,7 +920,7 @@
                                     {{ __('Web_UI_Reason_Content_20-2')}}
                                     </p>
                                     <b-button
-                                        href="http://doublinlin.com/doublin/doublin(2017-2019)/index.html"
+                                        href="http://portfolio.doublinlin.com/public/doublin(2017-2019)/index.html"
                                         class="font-des-6"
                                         target="_blank"
                                         variant="outline-dark"
@@ -930,14 +930,14 @@
                                     </b-button>
                                 </div>
                                 <div class="mb-5">
-                                    <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Doublin(2017-2019)-web-01.jpg" fluid alt="Fluid image"></b-img>
+                                    <b-img src="{{ url('images/UIWebDesign/Doublin(2017-2019)-web-01.jpg') }}" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
 
                         </b-modal>
 
                     <b-card
-                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/BDIOT-web.jpg"
+                        img-src="{{ url('images/UIWebDesign/BDIOT-web.jpg') }}"
                         img-alt="Image"
                         img-top
                         class="mt-3"
@@ -970,7 +970,7 @@
                                     {{ __('Web_UI_Reason_Content_21-2')}}
                                     </p>
                                     <b-button
-                                        href="http://doublinlin.com/doublin/BDIOT/index.html"
+                                        href="http://portfolio.doublinlin.com/public/BDIOT/index.html"
                                         class="font-des-6"
                                         target="_blank"
                                         variant="outline-dark"
@@ -980,7 +980,7 @@
                                     </b-button>
                                 </div>
                                 <div class="mb-5">
-                                <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/BDIOT-web.jpg" fluid alt="Fluid image"></b-img>
+                                <b-img src="{{ url('images/UIWebDesign/BDIOT-web.jpg') }}" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
 
@@ -989,7 +989,7 @@
 
                 <b-card-group deck>
                     <b-card
-                        img-src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Topology-web.jpg"
+                        img-src="{{ url('images/UIWebDesign/Topology-web.jpg') }}"
                         img-alt="Image"
                         img-top
                         class="mt-3"
@@ -1022,7 +1022,7 @@
                                     {{ __('Web_UI_Reason_Content_22-2')}}
                                     </p>
                                     <b-button
-                                        href="http://doublinlin.com/doublin/Topology/index.html"
+                                        href="http://portfolio.doublinlin.com/public/Topology/index.html"
                                         class="font-des-6"
                                         target="_blank"
                                         variant="outline-dark"
@@ -1032,7 +1032,7 @@
                                     </b-button>
                                 </div>
                                 <div class="mb-5">
-                                    <b-img src="http://doublinlin.com/doublin/doublin(2017-2019)/img/uiWebDesignImg/Topology-web.jpg" fluid alt="Fluid image"></b-img>
+                                    <b-img src="{{ url('images/UIWebDesign/Topology-web.jpg') }}" fluid alt="Fluid image"></b-img>
                                 </div>
                             </b-container>
                         </b-modal>

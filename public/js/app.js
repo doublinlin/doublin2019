@@ -27345,7 +27345,7 @@ __webpack_require__.r(__webpack_exports__);
       visible: false,
       index: 0,
       // default: 0
-      imgs: ['http://doublinlin.com/doublin/doublin(2017-2019)/img/photoImg/photo-7.jpg', 'http://doublinlin.com/doublin/doublin(2017-2019)/img/photoImg/photo-6.jpg', 'http://doublinlin.com/doublin/doublin(2017-2019)/img/photoImg/photo-1.jpg', 'http://doublinlin.com/doublin/doublin(2017-2019)/img/photoImg/photo-3.jpg', 'http://doublinlin.com/doublin/doublin(2017-2019)/img/photoImg/photo-4.jpg', 'http://doublinlin.com/doublin/doublin(2017-2019)/img/photoImg/photo-5.jpg']
+      imgs: ['http://portfolio.doublinlin.com/public/images/photoImg/photo-7.jpg', 'http://portfolio.doublinlin.com/public/images/photoImg/photo-6.jpg', 'http://portfolio.doublinlin.com/public/images/photoImg/photo-1.jpg', 'http://portfolio.doublinlin.com/public/images/photoImg/photo-3.jpg', 'http://portfolio.doublinlin.com/public/images/photoImg/photo-4.jpg', 'http://portfolio.doublinlin.com/public/images/photoImg/photo-5.jpg']
     };
   },
   methods: {
@@ -27401,11 +27401,11 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Slides with image only "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_carousel_slide, {
-        "img-src": "http://doublinlin.com/doublin/doublin(2017-2019)/img/Doublin_bag_1.jpg"
+        "img-src": "http://portfolio.doublinlin.com/public/images/carousel/Doublin_bag_1.jpg"
       }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_carousel_slide, {
-        "img-src": "http://doublinlin.com/doublin/doublin(2017-2019)/img/Doublin_bag_2.jpg"
+        "img-src": "http://portfolio.doublinlin.com/public/images/carousel/Doublin_bag_2.jpg"
       }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_carousel_slide, {
-        "img-src": "http://doublinlin.com/doublin/doublin(2017-2019)/img/Doublin_bag_3.jpg"
+        "img-src": "http://portfolio.doublinlin.com/public/images/carousel/Doublin_bag_3.jpg"
       })];
     }),
     _: 1 /* STABLE */
@@ -27470,7 +27470,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       return $options.startArrowKeys && $options.startArrowKeys.apply($options, arguments);
     }, ["exact", "prevent"]), ["down"]))]
   }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-    src: "http://doublinlin.com/doublin/doublin/public/images/lang/flag_".concat($props.locale, ".png"),
+    src: "http://portfolio.doublinlin.com/public/images/lang/flag_".concat($props.locale, ".png"),
     alt: "flag",
     style: {
       "width": "24px",
@@ -27497,7 +27497,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           return $options.hideDropdown && $options.hideDropdown.apply($options, arguments);
         }, ["exact"]), ["esc"]))]
       }, _toConsumableArray(_cache[16] || (_cache[16] = [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-        src: "http://doublinlin.com/doublin/doublin/public/images/lang/flag_en.png",
+        src: "http://portfolio.doublinlin.com/public/images/lang/flag_en.png",
         alt: "english flag",
         style: {
           "width": "20px",
@@ -27518,7 +27518,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
           return $options.hideDropdown && $options.hideDropdown.apply($options, arguments);
         }, ["exact"]), ["esc"]))]
       }, _toConsumableArray(_cache[17] || (_cache[17] = [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-        src: "http://doublinlin.com/doublin/doublin/public/images/lang/flag_zh.png",
+        src: "http://portfolio.doublinlin.com/public/doublin/public/images/lang/flag_zh.png",
         alt: "chinese flag",
         style: {
           "width": "20px",

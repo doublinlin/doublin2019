@@ -10,7 +10,7 @@
       @keydown.up.exact.prevent="startArrowKeys"
       @keydown.down.exact.prevent="startArrowKeys"
     >
-      <img :src="`http://doublinlin.com/doublin/doublin/public/images/lang/flag_${locale}.png`" alt="flag" style="width: 24px; height: 24px;">
+      <img :src="`http://portfolio.doublinlin.com/public/images/lang/flag_${locale}.png`" alt="flag" style="width: 24px; height: 24px;">
       <span class="ms-2 text-uppercase">{{ locale }}</span>
       <i class="bi bi-caret-down-fill ms-1" style="font-size: 0.7rem;"></i>
     </button>
@@ -29,7 +29,7 @@
             @keydown.down.exact.prevent="focusNext(true)"
             @keydown.esc.exact="hideDropdown"
           >
-            <img src="http://doublinlin.com/doublin/doublin/public/images/lang/flag_en.png" alt="english flag" style="width: 20px; height: 20px;">
+            <img src="http://portfolio.doublinlin.com/public/images/lang/flag_en.png" alt="english flag" style="width: 20px; height: 20px;">
             <span class="ms-2">English</span>
           </a>
         </li>
@@ -43,7 +43,7 @@
             @keydown.tab.exact="hideDropdown"
             @keydown.esc.exact="hideDropdown"
           >
-            <img src="http://doublinlin.com/doublin/doublin/public/images/lang/flag_zh.png" alt="chinese flag" style="width: 20px; height: 20px;">
+            <img src="http://portfolio.doublinlin.com/public/doublin/public/images/lang/flag_zh.png" alt="chinese flag" style="width: 20px; height: 20px;">
             <span class="ms-2">中文</span>
           </a>
         </li>
