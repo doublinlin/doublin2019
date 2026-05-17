@@ -8,9 +8,9 @@
             <div class="page-content">
                 <b-container class="bv-example-row">
                 <b-row>
-                    <b-col md="6">
+                    <!-- <b-col md="6">
                         <b-img src="{{ url('images/ItsMe/myPhoto.jpg') }}" fluid alt="Responsive image"></b-img>
-                    </b-col>
+                    </b-col> -->
                     <b-col md="6">
                     <b-row class="config">
                         <b-col md="3" class="text-title">{{ __('Name_Title') }}</b-col>
